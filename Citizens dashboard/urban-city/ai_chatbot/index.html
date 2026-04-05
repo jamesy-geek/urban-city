@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUIP - Citizen Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2><span>M</span>UIP</h2>
+                <button class="settings-btn" id="langToggle">EN/ಕ</button>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="active"><a href="#"><i class="fa-solid fa-message"></i> CityMind AI Chat</a></li>
+                <li><a href="#"><i class="fa-solid fa-file-contract"></i> Applications</a></li>
+                <li><a href="#" id="ticketsDocumentNav"><i class="fa-solid fa-ticket"></i> Ticket Document <span class="badge" id="ticketCountBadge">0</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-map-location-dot"></i> City Map</a></li>
+            </ul>
+
+            <div class="user-profile">
+                <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="user-info">
+                    <h4>Citizen</h4>
+                    <p>Mysuru, KA</p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Glassmorphism Chat Interface -->
+            <div class="chat-container">
+                <header class="chat-header">
+                    <div class="header-left">
+                        <div class="bot-avatar">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="bot-info">
+                            <h3>CityMind AI</h3>
+                            <p class="status"><span class="dot"></span> Online & Ready</p>
+                        </div>
+                    </div>
+                    <!-- Feature 2: Language Switcher -->
+                    <div class="language-switcher">
+                        <button class="lang-pill active" data-lang="en">EN</button>
+                        <button class="lang-pill" data-lang="kn">ಕನ್ನಡ</button>
+                        <button class="lang-pill" data-lang="hi">हिन्दी</button>
+                    </div>
+                </header>
+
+                <div class="chat-box" id="chatBox">
+                    <!-- Initial Welcome Message -->
+                    <div class="message bot-message fade-in">
+                        <div class="message-content">
+                            <p>Hello! I am CityMind, your Mysuru Urban Intelligence assistant. I can help you with city information, apply for permissions, or raise a complaint ticket.</p>
+                            <div class="suggested-chips">
+                                <button class="chip" data-intent="complaint">Raise a complaint</button>
+                                <button class="chip" data-intent="history">Show my tickets</button>
+                                <button class="chip" data-intent="permission">Procession permission</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <input type="text" id="userInput" placeholder="Type your message here..." autocomplete="off">
+                        <button id="sendBtn" class="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                    <p class="disclaimer">CityMind is an AI assistant. Responses may not always reflect official government decisions.</p>
+                </div>
+            </div>
+
+            <!-- Feature 4: Ticket Document View (Hidden by default) -->
+            <div class="tickets-overlay" id="ticketsOverlay">
+                <div class="tickets-panel">
+                    <div class="tickets-header">
+                        <h2>Your Complaint Tickets</h2>
+                        <button class="close-btn" id="closeTicketsBtn"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="tickets-list" id="ticketsList">
+                        <!-- Tickets will be populated here -->
+                        <div class="empty-state">
+                            <i class="fa-solid fa-inbox"></i>
+                            <p>No tickets raised yet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
