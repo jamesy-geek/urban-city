@@ -43,51 +43,82 @@ def get_db():
             # Ensure essential keys exist
             if "simulations" not in db: db["simulations"] = []
             if "forms" not in db: db["forms"] = []
-            if "form_schemas" not in db: 
+            if "form_schemas" not in db or not db["form_schemas"]: 
                 db["form_schemas"] = {
-                    "health_report": {
-                        "title": "Public Health Incident Report",
+                    "procession": {
+                        "title": "Procession / Public Event",
                         "fields": [
-                            {"id": "zone", "label": "Affected Ward/Zone", "type": "text", "required": true},
-                            {"id": "incident_type", "label": "Incident Type", "type": "select", "options": ["Waterborne", "Respiratory", "Waste Accumulation"], "required": true},
-                            {"id": "severity", "label": "Severity", "type": "range", "min": 1, "max": 10}
+                            {"id": "event_name", "label": "Name of Event / Procession", "type": "text", "required": True},
+                            {"id": "event_type", "label": "Type of Procession", "type": "select", "options": ["Religious", "Marriage", "Political", "Protest", "Cultural"], "required": True},
+                            {"id": "event_date", "label": "Date of Event", "type": "date", "required": True},
+                            {"id": "start_time", "label": "Start Time", "type": "time", "required": True},
+                            {"id": "end_time", "label": "End Time", "type": "time", "required": True},
+                            {"id": "participants", "label": "Expected Participants", "type": "number", "required": True},
+                            {"id": "start_point", "label": "Starting Point", "type": "text", "required": True},
+                            {"id": "end_point", "label": "Destination", "type": "text", "required": True},
+                            {"id": "route_desc", "label": "Route Description", "type": "textarea", "required": True},
+                            {"id": "police_station", "label": "Name of Traffic Police Station", "type": "text", "required": True}
+                        ]
+                    },
+                    "road_closure": {
+                        "title": "Road Closure Request",
+                        "fields": [
+                            {"id": "road_name", "label": "Road / Street Name", "type": "text", "required": True},
+                            {"id": "ward", "label": "Locality / Ward", "type": "text", "required": True},
+                            {"id": "reason", "label": "Reason for Closure", "type": "select", "options": ["Construction", "Maintenance", "Private Event", "Public Gathering"], "required": True},
+                            {"id": "start_date", "label": "Closure Start Date", "type": "date", "required": True},
+                            {"id": "start_time", "label": "Closure Start Time", "type": "time", "required": True},
+                            {"id": "end_date", "label": "Closure End Date", "type": "date", "required": True},
+                            {"id": "end_time", "label": "Closure End Time", "type": "time", "required": True},
+                            {"id": "alt_route", "label": "Alternative Diversion Route (via)", "type": "text", "required": True}
                         ]
                     },
                     "waste_report": {
-                        "title": "Waste Management Exception",
+                        "title": "Waste Management Report",
                         "fields": [
-                            {"id": "days_missed", "label": "Days Since Collection", "type": "number", "required": true},
-                            {"id": "location", "label": "GPS Location", "type": "text"}
+                            {"id": "ward", "label": "Ward Name / Number", "type": "text", "required": True},
+                            {"id": "issue_type", "label": "Type of Waste Issue", "type": "select", "options": ["Missed Collection", "Overflowing Bin", "Illegal Dumping", "Debris Removal"], "required": True},
+                            {"id": "location_desc", "label": "Exact Location / Landmark", "type": "textarea", "required": True}
                         ]
                     }
                 }
             
             # --- Real Data Tables (Hospitals/Wards) ---
-            if "hospitals" not in db or not db["hospitals"]:
-                # Seed from 105 hospitals (10 critical + 95 structured)
-                CRITICAL_H = [
-                    {"name": "KR Hospital", "lat": 12.3134, "lng": 76.6499, "level": "District"},
-                    {"name": "District Hospital", "lat": 12.3499, "lng": 76.6280, "level": "District"},
-                    {"name": "JSS Hospital", "lat": 12.2960, "lng": 76.6552, "level": "Tertiary"},
-                    {"name": "Narayana Hrudayalaya", "lat": 12.3445, "lng": 76.6731, "level": "Tertiary"},
-                    {"name": "Manipal Hospital", "lat": 12.3499, "lng": 76.6602, "level": "Tertiary"},
-                    {"name": "Apollo Hospital", "lat": 12.2959, "lng": 76.6324, "level": "Tertiary"},
-                    {"name": "Holdsworth Memorial Hospital (CSI)", "lat": 12.3204, "lng": 76.6501, "level": "Secondary"},
-                    {"name": "ESI Hospital", "lat": 12.3383, "lng": 76.6324, "level": "Secondary"},
-                    {"name": "Basappa Memorial Hospital", "lat": 12.3207, "lng": 76.6204, "level": "Secondary"},
-                    {"name": "Bharath Hospital", "lat": 12.3528, "lng": 76.6083, "level": "Secondary"}
-                ]
-                hospitals = [{"id": f"h_{i+1}", **h} for i, h in enumerate(CRITICAL_H)]
-                # Add 95 placeholders to reach 105 as per spec
-                for i in range(len(hospitals), 105):
-                    hospitals.append({
-                        "id": f"h_{i+1}",
-                        "name": None, # Should be labeled 'Unnamed Facility' by UI
-                        "lat": round(12.3 + random.uniform(-0.05, 0.05), 6),
-                        "lng": round(76.6 + random.uniform(-0.05, 0.05), 6),
-                        "level": random.choice(["Primary", "Secondary", "Tertiary"])
-                    })
-                db["hospitals"] = hospitals
+            if "hospitals" not in db or not db["hospitals"] or "Unnamed Facility" in str(db["hospitals"]):
+                import json as py_json
+                hospitals = []
+                geo_path = "backend/data/hospitals.geojson"
+                if os.path.exists(geo_path):
+                    with open(geo_path, "r", encoding="utf-8") as gf:
+                        geo_data = py_json.load(gf)
+                        for feat in geo_data.get("features", []):
+                            props = feat.get("properties", {})
+                            name = props.get("name")
+                            if name: # Only named ones
+                                geom = feat.get("geometry", {})
+                                coords = geom.get("coordinates")
+                                if coords and len(coords) >= 2:
+                                    hospitals.append({
+                                        "id": f"h_{len(hospitals) + 1}",
+                                        "name": name,
+                                        "lat": coords[1],
+                                        "lng": coords[0],
+                                        "level": props.get("healthcare", random.choice(["Primary", "Secondary", "Tertiary"]))
+                                    })
+                
+                # Ensure we have about 105 or more. If we got many more from geojson, that's fine.
+                # If we got fewer, add some synthetic from neighborhood wards
+                if len(hospitals) < 105:
+                    WARDS = ["Nazarbad", "V.V. Puram", "Saraswathipuram", "Udayagiri", "Mandavadi", "Ilavala"]
+                    for i in range(len(hospitals), 105):
+                        hospitals.append({
+                            "id": f"h_{i+1}",
+                            "name": f"{random.choice(WARDS)} Community Clinic {i+1}",
+                            "lat": round(12.3 + random.uniform(-0.05, 0.05), 6),
+                            "lng": round(76.6 + random.uniform(-0.05, 0.05), 6),
+                            "level": random.choice(["Primary", "Secondary"])
+                        })
+                db["hospitals"] = hospitals[:105] # Target exact 105
 
             if "wards" not in db or not db["wards"]:
                 WARD_ESTIMATES = [
@@ -415,10 +446,55 @@ async def policy_recommend(data: dict = Body(...)):
         "confidence": 0.94
     }
 
+@app.get("/api/v1/form_schemas")
+async def get_all_form_schemas():
+    db = get_db()
+    if 'form_schemas' not in db:
+        db['form_schemas'] = {
+            "procession": {
+                "title": "Procession / Public Event",
+                "fields": [
+                    {"id": "event_name", "label": "Name of Event / Procession", "type": "text", "required": True},
+                    {"id": "event_type", "label": "Type of Procession", "type": "select", "options": ["Religious", "Marriage", "Political", "Protest", "Cultural"], "required": True},
+                    {"id": "event_date", "label": "Date of Event", "type": "date", "required": True},
+                    {"id": "start_time", "label": "Start Time", "type": "time", "required": True},
+                    {"id": "end_time", "label": "End Time", "type": "time", "required": True},
+                    {"id": "participants", "label": "Expected Participants", "type": "number", "required": True},
+                    {"id": "start_point", "label": "Starting Point", "type": "text", "required": True},
+                    {"id": "end_point", "label": "Destination", "type": "text", "required": True},
+                    {"id": "route_desc", "label": "Route Description", "type": "textarea", "required": True},
+                    {"id": "police_station", "label": "Name of Traffic Police Station", "type": "text", "required": True}
+                ]
+            },
+            "road_closure": {
+                "title": "Road Closure Request",
+                "fields": [
+                    {"id": "road_name", "label": "Road / Street Name", "type": "text", "required": True},
+                    {"id": "ward", "label": "Locality / Ward", "type": "text", "required": True},
+                    {"id": "reason", "label": "Reason for Closure", "type": "select", "options": ["Construction", "Maintenance", "Private Event", "Public Gathering"], "required": True},
+                    {"id": "start_date", "label": "Closure Start Date", "type": "date", "required": True},
+                    {"id": "start_time", "label": "Closure Start Time", "type": "time", "required": True},
+                    {"id": "end_date", "label": "Closure End Date", "type": "date", "required": True},
+                    {"id": "end_time", "label": "Closure End Time", "type": "time", "required": True},
+                    {"id": "alt_route", "label": "Alternative Diversion Route (via)", "type": "text", "required": True}
+                ]
+            },
+            "waste_report": {
+                "title": "Waste Management Report",
+                "fields": [
+                    {"id": "ward", "label": "Ward Name / Number", "type": "text", "required": True},
+                    {"id": "issue_type", "label": "Type of Waste Issue", "type": "select", "options": ["Missed Collection", "Overflowing Bin", "Illegal Dumping", "Debris Removal"], "required": True},
+                    {"id": "location_desc", "label": "Exact Location / Landmark", "type": "textarea", "required": True}
+                ]
+            }
+        }
+        save_db(db)
+    return db['form_schemas']
+
 @app.get("/api/v1/forms/schema/{form_type}")
 async def get_form_schema(form_type: str):
     db = get_db()
-    schema = db['form_schemas'].get(form_type)
+    schema = db.get('form_schemas', {}).get(form_type)
     if not schema:
         raise HTTPException(status_code=404, detail="Schema not found")
     return schema
@@ -429,6 +505,54 @@ async def update_form_schema(form_type: str, schema: dict = Body(...)):
     db['form_schemas'][form_type] = schema
     save_db(db)
     return {"status": "updated"}
+
+@app.post("/api/v1/forms/submit")
+async def submit_form(data: dict = Body(...)):
+    db = get_db()
+    if 'submissions' not in db:
+        db['submissions'] = []
+    
+    import datetime
+    details = data.get('details', {})
+    
+    # Try to find common fields in details if not at root
+    applicant = data.get('applicant') or details.get('applicant_name') or "Anonymous"
+    date = data.get('date') or details.get('event_date') or details.get('start_date') or datetime.datetime.now().strftime('%Y-%m-%d')
+    location = data.get('location') or details.get('road_name') or details.get('start_point') or "Mysuru"
+    route = data.get('route') or details.get('route_desc') or details.get('alt_route') or "Multiple locations"
+    participants = data.get('participants') or details.get('participants') or "N/A"
+    
+    submission = {
+        "id": f"REQ-{datetime.datetime.now().strftime('%H%M%S')}-{random.randint(100, 999)}",
+        "type": data.get('type', 'Unknown'),
+        "applicant": applicant,
+        "organization": data.get('organization') or details.get('organization') or "None",
+        "date": date,
+        "status": "pending",
+        "route": location if "road" in str(location).lower() else f"{location} (Route: {route[:20]}...)",
+        "participants": participants,
+        "submittedAt": "Just Now",
+        "payload": data
+    }
+    db['submissions'].insert(0, submission)
+    save_db(db)
+    return submission
+
+@app.get("/api/v1/forms/submissions")
+async def get_submissions():
+    db = get_db()
+    return db.get('submissions', [])
+
+@app.patch("/api/v1/forms/submissions/{submission_id}")
+async def update_submission(submission_id: str, data: dict = Body(...)):
+    db = get_db()
+    submissions = db.get('submissions', [])
+    for sub in submissions:
+        if sub['id'] == submission_id:
+            sub['status'] = data.get('status', sub['status'])
+            save_db(db)
+            return sub
+    raise HTTPException(status_code=404, detail="Submission not found")
 
 # Background initialization logic code below
 

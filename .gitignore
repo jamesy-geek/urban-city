@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel
+Government Dashboard/tmp_repo/
+.DS_Store
+*.pyc
+__pycache__/
+backend/db.json

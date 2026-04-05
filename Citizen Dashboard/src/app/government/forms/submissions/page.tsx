@@ -23,21 +23,6 @@ export default function SubmissionsPage() {
     s.applicant.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const handleStatusChange = async (id: string, status: string) => {
-    try {
-      const res = await fetch(`http://localhost:8001/api/v1/forms/submissions/${id}`, {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ status })
-      });
-      if (res.ok) {
-        setSubmissions(prev => prev.map(s => s.id === id ? { ...s, status } : s));
-      }
-    } catch (e) {
-      console.error("Status update failed", e);
-    }
-  };
-
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto', color: '#f3f4f6' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
@@ -118,24 +103,9 @@ export default function SubmissionsPage() {
                   {sub.status === 'rejected' && <span style={{ padding: '0.25rem 0.75rem', backgroundColor: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', borderRadius: '9999px', fontSize: '0.75rem', fontWeight: '500', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}><XCircle size={12} /> Rejected</span>}
                 </td>
                 <td style={{ padding: '1rem' }}>
-                  {sub.status === 'pending' ? (
-                    <div style={{ display: 'flex', gap: '0.5rem' }}>
-                      <button 
-                        onClick={() => handleStatusChange(sub.id, 'approved')}
-                        style={{ padding: '0.375rem 0.75rem', backgroundColor: '#10b981', color: '#fff', border: 'none', borderRadius: '0.375rem', fontSize: '0.75rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                        Approve
-                      </button>
-                      <button 
-                        onClick={() => handleStatusChange(sub.id, 'rejected')}
-                        style={{ padding: '0.375rem 0.75rem', backgroundColor: '#ef4444', color: '#fff', border: 'none', borderRadius: '0.375rem', fontSize: '0.75rem', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                        Reject
-                      </button>
-                    </div>
-                  ) : (
-                    <button style={{ padding: '0.375rem 0.75rem', backgroundColor: '#374151', color: '#9ca3af', border: 'none', borderRadius: '0.375rem', fontSize: '0.75rem', cursor: 'not-allowed' }}>
-                      Resolved
-                    </button>
-                  )}
+                  <button style={{ padding: '0.5rem 1rem', backgroundColor: '#4f46e5', color: '#fff', border: 'none', borderRadius: '0.375rem', fontSize: '0.875rem', cursor: 'pointer', fontWeight: '500' }}>
+                    Review
+                  </button>
                 </td>
               </tr>
             ))}
