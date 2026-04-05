@@ -1,0 +1,3680 @@
+{
+  "simulations": [
+    {
+      "id": "v3_seed_0",
+      "payload": {
+        "scenario_type": "road_closure",
+        "name": "ML Seed 0",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3"
+        ]
+      },
+      "results": {
+        "congestion_pct": 33.1,
+        "avg_delay_min": 23.1,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 13.9,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 2.1,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.7
+      },
+      "timestamp": "2026-04-05T07:57:33.864454"
+    },
+    {
+      "id": "v3_seed_1",
+      "payload": {
+        "scenario_type": "festival",
+        "name": "ML Seed 1",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7",
+          "road_8",
+          "road_9",
+          "road_10",
+          "road_11"
+        ]
+      },
+      "results": {
+        "congestion_pct": 80.1,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.0,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 8.8
+      },
+      "timestamp": "2026-04-04T07:57:33.865951"
+    },
+    {
+      "id": "v3_seed_2",
+      "payload": {
+        "scenario_type": "flood",
+        "name": "ML Seed 2",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 45.5,
+        "avg_delay_min": 24.1,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 12.8,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.6,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 3.8,
+        "crowd_safety_risk": 2.8
+      },
+      "timestamp": "2026-04-03T07:57:33.867461"
+    },
+    {
+      "id": "v3_seed_3",
+      "payload": {
+        "scenario_type": "garbage",
+        "name": "ML Seed 3",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.0,
+        "avg_delay_min": 20.5,
+        "ambulance_delay_min": 9.8,
+        "pollution_delta": 35.4,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 6.7,
+        "ksrtc_disruption_score": 2.2,
+        "waste_impact_score": 10.0,
+        "crowd_safety_risk": 1.4
+      },
+      "timestamp": "2026-04-02T07:57:33.869458"
+    },
+    {
+      "id": "v3_seed_4",
+      "payload": {
+        "scenario_type": "ambulance",
+        "name": "ML Seed 4",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.8,
+        "avg_delay_min": 24.2,
+        "ambulance_delay_min": 20.1,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-04-01T07:57:33.870955"
+    },
+    {
+      "id": "v3_seed_5",
+      "payload": {
+        "scenario_type": "construction",
+        "name": "ML Seed 5",
+        "selected_road_ids": [
+          "road_0",
+          "road_1"
+        ]
+      },
+      "results": {
+        "congestion_pct": 30.6,
+        "avg_delay_min": 18.8,
+        "ambulance_delay_min": 7.5,
+        "pollution_delta": 12.0,
+        "flood_risk_score": 1.1,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 1.3
+      },
+      "timestamp": "2026-03-31T07:57:33.872633"
+    },
+    {
+      "id": "v3_seed_6",
+      "payload": {
+        "scenario_type": "vehicle_restriction",
+        "name": "ML Seed 6",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7"
+        ]
+      },
+      "results": {
+        "congestion_pct": 51.3,
+        "avg_delay_min": 35.0,
+        "ambulance_delay_min": 16.2,
+        "pollution_delta": 18.7,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 3.0,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.2
+      },
+      "timestamp": "2026-03-30T07:57:33.873635"
+    },
+    {
+      "id": "v3_seed_7",
+      "payload": {
+        "scenario_type": "bus_route",
+        "name": "ML Seed 7",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.5,
+        "avg_delay_min": 30.2,
+        "ambulance_delay_min": 12.0,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-29T07:57:33.875137"
+    },
+    {
+      "id": "v3_seed_8",
+      "payload": {
+        "scenario_type": "road_closure",
+        "name": "ML Seed 8",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3"
+        ]
+      },
+      "results": {
+        "congestion_pct": 33.1,
+        "avg_delay_min": 23.1,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 13.9,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 2.1,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.7
+      },
+      "timestamp": "2026-03-28T07:57:33.876805"
+    },
+    {
+      "id": "v3_seed_9",
+      "payload": {
+        "scenario_type": "festival",
+        "name": "ML Seed 9",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7",
+          "road_8",
+          "road_9",
+          "road_10",
+          "road_11"
+        ]
+      },
+      "results": {
+        "congestion_pct": 80.1,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.0,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 8.8
+      },
+      "timestamp": "2026-03-27T07:57:33.878874"
+    },
+    {
+      "id": "v3_seed_10",
+      "payload": {
+        "scenario_type": "flood",
+        "name": "ML Seed 10",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 45.5,
+        "avg_delay_min": 24.1,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 12.8,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.6,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 3.8,
+        "crowd_safety_risk": 2.8
+      },
+      "timestamp": "2026-03-26T07:57:33.879871"
+    },
+    {
+      "id": "v3_seed_11",
+      "payload": {
+        "scenario_type": "garbage",
+        "name": "ML Seed 11",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.0,
+        "avg_delay_min": 20.5,
+        "ambulance_delay_min": 9.8,
+        "pollution_delta": 35.4,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 6.7,
+        "ksrtc_disruption_score": 2.2,
+        "waste_impact_score": 10.0,
+        "crowd_safety_risk": 1.4
+      },
+      "timestamp": "2026-03-25T07:57:33.881370"
+    },
+    {
+      "id": "v3_seed_12",
+      "payload": {
+        "scenario_type": "ambulance",
+        "name": "ML Seed 12",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.8,
+        "avg_delay_min": 24.2,
+        "ambulance_delay_min": 20.1,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-24T07:57:33.883481"
+    },
+    {
+      "id": "v3_seed_13",
+      "payload": {
+        "scenario_type": "construction",
+        "name": "ML Seed 13",
+        "selected_road_ids": [
+          "road_0",
+          "road_1"
+        ]
+      },
+      "results": {
+        "congestion_pct": 30.6,
+        "avg_delay_min": 18.8,
+        "ambulance_delay_min": 7.5,
+        "pollution_delta": 12.0,
+        "flood_risk_score": 1.1,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 1.3
+      },
+      "timestamp": "2026-03-23T07:57:33.884508"
+    },
+    {
+      "id": "v3_seed_14",
+      "payload": {
+        "scenario_type": "vehicle_restriction",
+        "name": "ML Seed 14",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7"
+        ]
+      },
+      "results": {
+        "congestion_pct": 51.3,
+        "avg_delay_min": 35.0,
+        "ambulance_delay_min": 16.2,
+        "pollution_delta": 18.7,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 3.0,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.2
+      },
+      "timestamp": "2026-03-22T07:57:33.886600"
+    },
+    {
+      "id": "v3_seed_15",
+      "payload": {
+        "scenario_type": "bus_route",
+        "name": "ML Seed 15",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.5,
+        "avg_delay_min": 30.2,
+        "ambulance_delay_min": 12.0,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-21T07:57:33.888337"
+    },
+    {
+      "id": "v3_seed_16",
+      "payload": {
+        "scenario_type": "road_closure",
+        "name": "ML Seed 16",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3"
+        ]
+      },
+      "results": {
+        "congestion_pct": 33.1,
+        "avg_delay_min": 23.1,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 13.9,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 2.1,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.7
+      },
+      "timestamp": "2026-03-20T07:57:33.889335"
+    },
+    {
+      "id": "v3_seed_17",
+      "payload": {
+        "scenario_type": "festival",
+        "name": "ML Seed 17",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7",
+          "road_8",
+          "road_9",
+          "road_10",
+          "road_11"
+        ]
+      },
+      "results": {
+        "congestion_pct": 80.1,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.0,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 8.8
+      },
+      "timestamp": "2026-03-19T07:57:33.891491"
+    },
+    {
+      "id": "v3_seed_18",
+      "payload": {
+        "scenario_type": "flood",
+        "name": "ML Seed 18",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 45.5,
+        "avg_delay_min": 24.1,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 12.8,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.6,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 3.8,
+        "crowd_safety_risk": 2.8
+      },
+      "timestamp": "2026-03-18T07:57:33.892637"
+    },
+    {
+      "id": "v3_seed_19",
+      "payload": {
+        "scenario_type": "garbage",
+        "name": "ML Seed 19",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.0,
+        "avg_delay_min": 20.5,
+        "ambulance_delay_min": 9.8,
+        "pollution_delta": 35.4,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 6.7,
+        "ksrtc_disruption_score": 2.2,
+        "waste_impact_score": 10.0,
+        "crowd_safety_risk": 1.4
+      },
+      "timestamp": "2026-03-17T07:57:33.894695"
+    },
+    {
+      "id": "v3_seed_20",
+      "payload": {
+        "scenario_type": "ambulance",
+        "name": "ML Seed 20",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.8,
+        "avg_delay_min": 24.2,
+        "ambulance_delay_min": 20.1,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-16T07:57:33.895708"
+    },
+    {
+      "id": "v3_seed_21",
+      "payload": {
+        "scenario_type": "construction",
+        "name": "ML Seed 21",
+        "selected_road_ids": [
+          "road_0",
+          "road_1"
+        ]
+      },
+      "results": {
+        "congestion_pct": 30.6,
+        "avg_delay_min": 18.8,
+        "ambulance_delay_min": 7.5,
+        "pollution_delta": 12.0,
+        "flood_risk_score": 1.1,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 1.3
+      },
+      "timestamp": "2026-03-15T07:57:33.896778"
+    },
+    {
+      "id": "v3_seed_22",
+      "payload": {
+        "scenario_type": "vehicle_restriction",
+        "name": "ML Seed 22",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7"
+        ]
+      },
+      "results": {
+        "congestion_pct": 51.3,
+        "avg_delay_min": 35.0,
+        "ambulance_delay_min": 16.2,
+        "pollution_delta": 18.7,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 3.0,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.2
+      },
+      "timestamp": "2026-03-14T07:57:33.898799"
+    },
+    {
+      "id": "v3_seed_23",
+      "payload": {
+        "scenario_type": "bus_route",
+        "name": "ML Seed 23",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.5,
+        "avg_delay_min": 30.2,
+        "ambulance_delay_min": 12.0,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-13T07:57:33.901001"
+    },
+    {
+      "id": "v3_seed_24",
+      "payload": {
+        "scenario_type": "road_closure",
+        "name": "ML Seed 24",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3"
+        ]
+      },
+      "results": {
+        "congestion_pct": 33.1,
+        "avg_delay_min": 23.1,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 13.9,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 2.1,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.7
+      },
+      "timestamp": "2026-03-12T07:57:33.902009"
+    },
+    {
+      "id": "v3_seed_25",
+      "payload": {
+        "scenario_type": "festival",
+        "name": "ML Seed 25",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7",
+          "road_8",
+          "road_9",
+          "road_10",
+          "road_11"
+        ]
+      },
+      "results": {
+        "congestion_pct": 80.1,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.0,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 8.8
+      },
+      "timestamp": "2026-03-11T07:57:33.903627"
+    },
+    {
+      "id": "v3_seed_26",
+      "payload": {
+        "scenario_type": "flood",
+        "name": "ML Seed 26",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 45.5,
+        "avg_delay_min": 24.1,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 12.8,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.6,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 3.8,
+        "crowd_safety_risk": 2.8
+      },
+      "timestamp": "2026-03-10T07:57:33.904627"
+    },
+    {
+      "id": "v3_seed_27",
+      "payload": {
+        "scenario_type": "garbage",
+        "name": "ML Seed 27",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.0,
+        "avg_delay_min": 20.5,
+        "ambulance_delay_min": 9.8,
+        "pollution_delta": 35.4,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 6.7,
+        "ksrtc_disruption_score": 2.2,
+        "waste_impact_score": 10.0,
+        "crowd_safety_risk": 1.4
+      },
+      "timestamp": "2026-03-09T07:57:33.907003"
+    },
+    {
+      "id": "v3_seed_28",
+      "payload": {
+        "scenario_type": "ambulance",
+        "name": "ML Seed 28",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.8,
+        "avg_delay_min": 24.2,
+        "ambulance_delay_min": 20.1,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-08T07:57:33.908012"
+    },
+    {
+      "id": "v3_seed_29",
+      "payload": {
+        "scenario_type": "construction",
+        "name": "ML Seed 29",
+        "selected_road_ids": [
+          "road_0",
+          "road_1"
+        ]
+      },
+      "results": {
+        "congestion_pct": 30.6,
+        "avg_delay_min": 18.8,
+        "ambulance_delay_min": 7.5,
+        "pollution_delta": 12.0,
+        "flood_risk_score": 1.1,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 1.3
+      },
+      "timestamp": "2026-03-07T07:57:33.910030"
+    },
+    {
+      "id": "v3_seed_30",
+      "payload": {
+        "scenario_type": "vehicle_restriction",
+        "name": "ML Seed 30",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7"
+        ]
+      },
+      "results": {
+        "congestion_pct": 51.3,
+        "avg_delay_min": 35.0,
+        "ambulance_delay_min": 16.2,
+        "pollution_delta": 18.7,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 3.0,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.2
+      },
+      "timestamp": "2026-04-05T07:57:33.911261"
+    },
+    {
+      "id": "v3_seed_31",
+      "payload": {
+        "scenario_type": "bus_route",
+        "name": "ML Seed 31",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.5,
+        "avg_delay_min": 30.2,
+        "ambulance_delay_min": 12.0,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-04-04T07:57:33.913587"
+    },
+    {
+      "id": "v3_seed_32",
+      "payload": {
+        "scenario_type": "road_closure",
+        "name": "ML Seed 32",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3"
+        ]
+      },
+      "results": {
+        "congestion_pct": 33.1,
+        "avg_delay_min": 23.1,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 13.9,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 2.1,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.7
+      },
+      "timestamp": "2026-04-03T07:57:33.915110"
+    },
+    {
+      "id": "v3_seed_33",
+      "payload": {
+        "scenario_type": "festival",
+        "name": "ML Seed 33",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7",
+          "road_8",
+          "road_9",
+          "road_10",
+          "road_11"
+        ]
+      },
+      "results": {
+        "congestion_pct": 80.1,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.0,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 8.8
+      },
+      "timestamp": "2026-04-02T07:57:33.916750"
+    },
+    {
+      "id": "v3_seed_34",
+      "payload": {
+        "scenario_type": "flood",
+        "name": "ML Seed 34",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 45.5,
+        "avg_delay_min": 24.1,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 12.8,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.6,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 3.8,
+        "crowd_safety_risk": 2.8
+      },
+      "timestamp": "2026-04-01T07:57:33.917975"
+    },
+    {
+      "id": "v3_seed_35",
+      "payload": {
+        "scenario_type": "garbage",
+        "name": "ML Seed 35",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.0,
+        "avg_delay_min": 20.5,
+        "ambulance_delay_min": 9.8,
+        "pollution_delta": 35.4,
+        "flood_risk_score": 1.4,
+        "public_health_risk": 6.7,
+        "ksrtc_disruption_score": 2.2,
+        "waste_impact_score": 10.0,
+        "crowd_safety_risk": 1.4
+      },
+      "timestamp": "2026-03-31T07:57:33.920137"
+    },
+    {
+      "id": "v3_seed_36",
+      "payload": {
+        "scenario_type": "ambulance",
+        "name": "ML Seed 36",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.8,
+        "avg_delay_min": 24.2,
+        "ambulance_delay_min": 20.1,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-30T07:57:33.921306"
+    },
+    {
+      "id": "v3_seed_37",
+      "payload": {
+        "scenario_type": "construction",
+        "name": "ML Seed 37",
+        "selected_road_ids": [
+          "road_0",
+          "road_1"
+        ]
+      },
+      "results": {
+        "congestion_pct": 30.6,
+        "avg_delay_min": 18.8,
+        "ambulance_delay_min": 7.5,
+        "pollution_delta": 12.0,
+        "flood_risk_score": 1.1,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 2.4,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 1.3
+      },
+      "timestamp": "2026-03-29T07:57:33.923403"
+    },
+    {
+      "id": "v3_seed_38",
+      "payload": {
+        "scenario_type": "vehicle_restriction",
+        "name": "ML Seed 38",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4",
+          "road_5",
+          "road_6",
+          "road_7"
+        ]
+      },
+      "results": {
+        "congestion_pct": 51.3,
+        "avg_delay_min": 35.0,
+        "ambulance_delay_min": 16.2,
+        "pollution_delta": 18.7,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 3.0,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.2
+      },
+      "timestamp": "2026-03-28T07:57:33.924418"
+    },
+    {
+      "id": "v3_seed_39",
+      "payload": {
+        "scenario_type": "bus_route",
+        "name": "ML Seed 39",
+        "selected_road_ids": [
+          "road_0",
+          "road_1",
+          "road_2",
+          "road_3",
+          "road_4"
+        ]
+      },
+      "results": {
+        "congestion_pct": 38.5,
+        "avg_delay_min": 30.2,
+        "ambulance_delay_min": 12.0,
+        "pollution_delta": 15.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 1.8
+      },
+      "timestamp": "2026-03-27T07:57:33.925917"
+    },
+    {
+      "id": "sim_41",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.7,
+        "avg_delay_min": 56.7,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 39.9,
+        "flood_risk_score": 9.9,
+        "public_health_risk": 5.7,
+        "ksrtc_disruption_score": 7.5,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:22.143161"
+    },
+    {
+      "id": "sim_42",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 250.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 79.9,
+        "avg_delay_min": 57.2,
+        "ambulance_delay_min": 23.9,
+        "pollution_delta": 40.9,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 7.9,
+        "ksrtc_disruption_score": 7.8,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 9.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:30.506337"
+    },
+    {
+      "id": "sim_43",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 250.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 79.9,
+        "avg_delay_min": 57.2,
+        "ambulance_delay_min": 23.9,
+        "pollution_delta": 40.9,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 7.9,
+        "ksrtc_disruption_score": 7.8,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 9.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:31.524304"
+    },
+    {
+      "id": "sim_44",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 198.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 79.9,
+        "avg_delay_min": 57.2,
+        "ambulance_delay_min": 23.9,
+        "pollution_delta": 40.9,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 7.9,
+        "ksrtc_disruption_score": 7.8,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 9.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:34.152998"
+    },
+    {
+      "id": "sim_45",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 132.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 78.4,
+        "avg_delay_min": 56.6,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 40.8,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 6.9,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:35.799993"
+    },
+    {
+      "id": "sim_46",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 63.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.7,
+        "avg_delay_min": 56.7,
+        "ambulance_delay_min": 23.4,
+        "pollution_delta": 39.8,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 5.4,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:37.640603"
+    },
+    {
+      "id": "sim_47",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.3,
+        "avg_delay_min": 56.3,
+        "ambulance_delay_min": 22.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 2.1,
+        "public_health_risk": 0.6,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 8.6
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:39.781010"
+    },
+    {
+      "id": "sim_48",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 60.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.7,
+        "avg_delay_min": 57.1,
+        "ambulance_delay_min": 23.5,
+        "pollution_delta": 39.8,
+        "flood_risk_score": 10.0,
+        "public_health_risk": 5.3,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:43.111480"
+    },
+    {
+      "id": "sim_49",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 43.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.7,
+        "avg_delay_min": 57.1,
+        "ambulance_delay_min": 23.5,
+        "pollution_delta": 39.6,
+        "flood_risk_score": 8.1,
+        "public_health_risk": 4.2,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:45.060282"
+    },
+    {
+      "id": "sim_50",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 27.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.5,
+        "avg_delay_min": 57.1,
+        "ambulance_delay_min": 23.5,
+        "pollution_delta": 39.6,
+        "flood_risk_score": 6.4,
+        "public_health_risk": 4.1,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 9.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:46.689870"
+    },
+    {
+      "id": "sim_51",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 11.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 77.8,
+        "avg_delay_min": 56.5,
+        "ambulance_delay_min": 22.7,
+        "pollution_delta": 39.5,
+        "flood_risk_score": 2.9,
+        "public_health_risk": 1.3,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 9.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:48.436248"
+    },
+    {
+      "id": "sim_52",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.3,
+        "avg_delay_min": 56.3,
+        "ambulance_delay_min": 22.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 2.1,
+        "public_health_risk": 0.6,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 8.6
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:50.350919"
+    },
+    {
+      "id": "sim_53",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.3,
+        "avg_delay_min": 56.3,
+        "ambulance_delay_min": 22.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 2.1,
+        "public_health_risk": 0.6,
+        "ksrtc_disruption_score": 7.7,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 8.6
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:51.174003"
+    },
+    {
+      "id": "sim_54",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:57.156041"
+    },
+    {
+      "id": "sim_55",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:58.052587"
+    },
+    {
+      "id": "sim_56",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:58.558527"
+    },
+    {
+      "id": "sim_57",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:58.771124"
+    },
+    {
+      "id": "sim_58",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.109892"
+    },
+    {
+      "id": "sim_59",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.258245"
+    },
+    {
+      "id": "sim_60",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.436387"
+    },
+    {
+      "id": "sim_61",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.598593"
+    },
+    {
+      "id": "sim_62",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.769458"
+    },
+    {
+      "id": "sim_63",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:03:59.937293"
+    },
+    {
+      "id": "sim_64",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 76.5,
+        "avg_delay_min": 54.4,
+        "ambulance_delay_min": 21.0,
+        "pollution_delta": 39.3,
+        "flood_risk_score": 1.2,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:00.134141"
+    },
+    {
+      "id": "sim_65",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 4.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 54.1,
+        "avg_delay_min": 42.5,
+        "ambulance_delay_min": 12.7,
+        "pollution_delta": 31.5,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 8.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:06.131126"
+    },
+    {
+      "id": "sim_66",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 3.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 51.2,
+        "avg_delay_min": 38.6,
+        "ambulance_delay_min": 10.4,
+        "pollution_delta": 27.3,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 8.9,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 6.6
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:12.803914"
+    },
+    {
+      "id": "sim_67",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [
+          "308867625_308867596"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 29.2,
+        "avg_delay_min": 18.9,
+        "ambulance_delay_min": 9.4,
+        "pollution_delta": 11.2,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 1.9,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:35.395039"
+    },
+    {
+      "id": "sim_68",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [
+          "308867625_308867596"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.2959,
+        "zone_lng": 76.6324,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 3,
+        "hospital_distance_km": 2.430432219805866
+      },
+      "results": {
+        "congestion_pct": 19.6,
+        "avg_delay_min": 18.0,
+        "ambulance_delay_min": 13.0,
+        "pollution_delta": 17.3,
+        "flood_risk_score": 3.2,
+        "public_health_risk": 4.5,
+        "ksrtc_disruption_score": 2.0,
+        "waste_impact_score": 5.5,
+        "crowd_safety_risk": 1.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:38.177854"
+    },
+    {
+      "id": "sim_69",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [
+          "308867622_2406517225"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 29.2,
+        "avg_delay_min": 18.9,
+        "ambulance_delay_min": 9.4,
+        "pollution_delta": 11.2,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 1.9,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:40.255947"
+    },
+    {
+      "id": "sim_70",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [
+          "264488956_2741466588"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 29.2,
+        "avg_delay_min": 18.9,
+        "ambulance_delay_min": 9.4,
+        "pollution_delta": 11.2,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 1.9,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:42.558510"
+    },
+    {
+      "id": "sim_71",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [
+          "264488956_2741466588"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 29.2,
+        "avg_delay_min": 18.9,
+        "ambulance_delay_min": 9.4,
+        "pollution_delta": 11.2,
+        "flood_risk_score": 1.3,
+        "public_health_risk": 0.4,
+        "ksrtc_disruption_score": 1.9,
+        "waste_impact_score": 1.2,
+        "crowd_safety_risk": 1.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:44.832670"
+    },
+    {
+      "id": "sim_72",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [
+          "264488956_2741466588"
+        ],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.2959,
+        "zone_lng": 76.6324,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 3,
+        "hospital_distance_km": 4.404305258092928
+      },
+      "results": {
+        "congestion_pct": 19.6,
+        "avg_delay_min": 18.0,
+        "ambulance_delay_min": 13.0,
+        "pollution_delta": 17.3,
+        "flood_risk_score": 3.2,
+        "public_health_risk": 4.5,
+        "ksrtc_disruption_score": 2.0,
+        "waste_impact_score": 5.5,
+        "crowd_safety_risk": 1.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T08:04:46.998494"
+    }
+  ],
+  "forms": [],
+  "form_schemas": {},
+  "hospitals": [
+    {
+      "id": "h_1",
+      "name": "KR Hospital",
+      "lat": 12.3134,
+      "lng": 76.6499,
+      "level": "District"
+    },
+    {
+      "id": "h_2",
+      "name": "District Hospital",
+      "lat": 12.3499,
+      "lng": 76.628,
+      "level": "District"
+    },
+    {
+      "id": "h_3",
+      "name": "JSS Hospital",
+      "lat": 12.296,
+      "lng": 76.6552,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_4",
+      "name": "Narayana Hrudayalaya",
+      "lat": 12.3445,
+      "lng": 76.6731,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_5",
+      "name": "Manipal Hospital",
+      "lat": 12.3499,
+      "lng": 76.6602,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_6",
+      "name": "Apollo Hospital",
+      "lat": 12.2959,
+      "lng": 76.6324,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_7",
+      "name": "Holdsworth Memorial Hospital (CSI)",
+      "lat": 12.3204,
+      "lng": 76.6501,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_8",
+      "name": "ESI Hospital",
+      "lat": 12.3383,
+      "lng": 76.6324,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_9",
+      "name": "Basappa Memorial Hospital",
+      "lat": 12.3207,
+      "lng": 76.6204,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_10",
+      "name": "Bharath Hospital",
+      "lat": 12.3528,
+      "lng": 76.6083,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_11",
+      "name": null,
+      "lat": 12.312862,
+      "lng": 76.563266,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_12",
+      "name": null,
+      "lat": 12.262156,
+      "lng": 76.567161,
+      "level": "Primary"
+    },
+    {
+      "id": "h_13",
+      "name": null,
+      "lat": 12.265347,
+      "lng": 76.560087,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_14",
+      "name": null,
+      "lat": 12.283461,
+      "lng": 76.630212,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_15",
+      "name": null,
+      "lat": 12.345757,
+      "lng": 76.564478,
+      "level": "Primary"
+    },
+    {
+      "id": "h_16",
+      "name": null,
+      "lat": 12.310467,
+      "lng": 76.576341,
+      "level": "Primary"
+    },
+    {
+      "id": "h_17",
+      "name": null,
+      "lat": 12.308802,
+      "lng": 76.600636,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_18",
+      "name": null,
+      "lat": 12.312156,
+      "lng": 76.557051,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_19",
+      "name": null,
+      "lat": 12.300405,
+      "lng": 76.573244,
+      "level": "Primary"
+    },
+    {
+      "id": "h_20",
+      "name": null,
+      "lat": 12.327914,
+      "lng": 76.581528,
+      "level": "Primary"
+    },
+    {
+      "id": "h_21",
+      "name": null,
+      "lat": 12.316381,
+      "lng": 76.617858,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_22",
+      "name": null,
+      "lat": 12.349903,
+      "lng": 76.618495,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_23",
+      "name": null,
+      "lat": 12.276654,
+      "lng": 76.63166,
+      "level": "Primary"
+    },
+    {
+      "id": "h_24",
+      "name": null,
+      "lat": 12.257844,
+      "lng": 76.589379,
+      "level": "Primary"
+    },
+    {
+      "id": "h_25",
+      "name": null,
+      "lat": 12.304899,
+      "lng": 76.575534,
+      "level": "Primary"
+    },
+    {
+      "id": "h_26",
+      "name": null,
+      "lat": 12.344128,
+      "lng": 76.573774,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_27",
+      "name": null,
+      "lat": 12.257997,
+      "lng": 76.615178,
+      "level": "Primary"
+    },
+    {
+      "id": "h_28",
+      "name": null,
+      "lat": 12.274637,
+      "lng": 76.580951,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_29",
+      "name": null,
+      "lat": 12.32792,
+      "lng": 76.58172,
+      "level": "Primary"
+    },
+    {
+      "id": "h_30",
+      "name": null,
+      "lat": 12.284666,
+      "lng": 76.589851,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_31",
+      "name": null,
+      "lat": 12.271896,
+      "lng": 76.5599,
+      "level": "Primary"
+    },
+    {
+      "id": "h_32",
+      "name": null,
+      "lat": 12.317309,
+      "lng": 76.572096,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_33",
+      "name": null,
+      "lat": 12.335628,
+      "lng": 76.557274,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_34",
+      "name": null,
+      "lat": 12.255105,
+      "lng": 76.630092,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_35",
+      "name": null,
+      "lat": 12.288633,
+      "lng": 76.575344,
+      "level": "Primary"
+    },
+    {
+      "id": "h_36",
+      "name": null,
+      "lat": 12.274672,
+      "lng": 76.605013,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_37",
+      "name": null,
+      "lat": 12.289299,
+      "lng": 76.638773,
+      "level": "Primary"
+    },
+    {
+      "id": "h_38",
+      "name": null,
+      "lat": 12.310956,
+      "lng": 76.636724,
+      "level": "Primary"
+    },
+    {
+      "id": "h_39",
+      "name": null,
+      "lat": 12.324793,
+      "lng": 76.635818,
+      "level": "Primary"
+    },
+    {
+      "id": "h_40",
+      "name": null,
+      "lat": 12.303095,
+      "lng": 76.624325,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_41",
+      "name": null,
+      "lat": 12.289933,
+      "lng": 76.600637,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_42",
+      "name": null,
+      "lat": 12.263633,
+      "lng": 76.610721,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_43",
+      "name": null,
+      "lat": 12.259767,
+      "lng": 76.572584,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_44",
+      "name": null,
+      "lat": 12.259808,
+      "lng": 76.644402,
+      "level": "Primary"
+    },
+    {
+      "id": "h_45",
+      "name": null,
+      "lat": 12.254145,
+      "lng": 76.59003,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_46",
+      "name": null,
+      "lat": 12.329059,
+      "lng": 76.569121,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_47",
+      "name": null,
+      "lat": 12.309532,
+      "lng": 76.552101,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_48",
+      "name": null,
+      "lat": 12.284249,
+      "lng": 76.59115,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_49",
+      "name": null,
+      "lat": 12.266288,
+      "lng": 76.572825,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_50",
+      "name": null,
+      "lat": 12.300025,
+      "lng": 76.611272,
+      "level": "Primary"
+    },
+    {
+      "id": "h_51",
+      "name": null,
+      "lat": 12.298713,
+      "lng": 76.642609,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_52",
+      "name": null,
+      "lat": 12.272396,
+      "lng": 76.639128,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_53",
+      "name": null,
+      "lat": 12.314007,
+      "lng": 76.562691,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_54",
+      "name": null,
+      "lat": 12.263517,
+      "lng": 76.570392,
+      "level": "Primary"
+    },
+    {
+      "id": "h_55",
+      "name": null,
+      "lat": 12.307748,
+      "lng": 76.641636,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_56",
+      "name": null,
+      "lat": 12.343136,
+      "lng": 76.584682,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_57",
+      "name": null,
+      "lat": 12.261301,
+      "lng": 76.580528,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_58",
+      "name": null,
+      "lat": 12.316971,
+      "lng": 76.598562,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_59",
+      "name": null,
+      "lat": 12.274659,
+      "lng": 76.595224,
+      "level": "Primary"
+    },
+    {
+      "id": "h_60",
+      "name": null,
+      "lat": 12.33216,
+      "lng": 76.602539,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_61",
+      "name": null,
+      "lat": 12.30086,
+      "lng": 76.563209,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_62",
+      "name": null,
+      "lat": 12.288515,
+      "lng": 76.555802,
+      "level": "Primary"
+    },
+    {
+      "id": "h_63",
+      "name": null,
+      "lat": 12.324499,
+      "lng": 76.613689,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_64",
+      "name": null,
+      "lat": 12.300202,
+      "lng": 76.607824,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_65",
+      "name": null,
+      "lat": 12.342663,
+      "lng": 76.608173,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_66",
+      "name": null,
+      "lat": 12.332309,
+      "lng": 76.565612,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_67",
+      "name": null,
+      "lat": 12.259893,
+      "lng": 76.606612,
+      "level": "Primary"
+    },
+    {
+      "id": "h_68",
+      "name": null,
+      "lat": 12.33339,
+      "lng": 76.555719,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_69",
+      "name": null,
+      "lat": 12.347721,
+      "lng": 76.610912,
+      "level": "Primary"
+    },
+    {
+      "id": "h_70",
+      "name": null,
+      "lat": 12.25129,
+      "lng": 76.567643,
+      "level": "Primary"
+    },
+    {
+      "id": "h_71",
+      "name": null,
+      "lat": 12.323427,
+      "lng": 76.560133,
+      "level": "Primary"
+    },
+    {
+      "id": "h_72",
+      "name": null,
+      "lat": 12.278576,
+      "lng": 76.555881,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_73",
+      "name": null,
+      "lat": 12.333309,
+      "lng": 76.558992,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_74",
+      "name": null,
+      "lat": 12.293536,
+      "lng": 76.645262,
+      "level": "Primary"
+    },
+    {
+      "id": "h_75",
+      "name": null,
+      "lat": 12.330251,
+      "lng": 76.61594,
+      "level": "Primary"
+    },
+    {
+      "id": "h_76",
+      "name": null,
+      "lat": 12.277198,
+      "lng": 76.580368,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_77",
+      "name": null,
+      "lat": 12.342633,
+      "lng": 76.572307,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_78",
+      "name": null,
+      "lat": 12.287797,
+      "lng": 76.607373,
+      "level": "Primary"
+    },
+    {
+      "id": "h_79",
+      "name": null,
+      "lat": 12.274225,
+      "lng": 76.646345,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_80",
+      "name": null,
+      "lat": 12.337053,
+      "lng": 76.605836,
+      "level": "Primary"
+    },
+    {
+      "id": "h_81",
+      "name": null,
+      "lat": 12.263637,
+      "lng": 76.619968,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_82",
+      "name": null,
+      "lat": 12.257586,
+      "lng": 76.555234,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_83",
+      "name": null,
+      "lat": 12.290624,
+      "lng": 76.553737,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_84",
+      "name": null,
+      "lat": 12.320032,
+      "lng": 76.553388,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_85",
+      "name": null,
+      "lat": 12.304737,
+      "lng": 76.591672,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_86",
+      "name": null,
+      "lat": 12.281885,
+      "lng": 76.569639,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_87",
+      "name": null,
+      "lat": 12.337105,
+      "lng": 76.57948,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_88",
+      "name": null,
+      "lat": 12.314363,
+      "lng": 76.583018,
+      "level": "Primary"
+    },
+    {
+      "id": "h_89",
+      "name": null,
+      "lat": 12.32523,
+      "lng": 76.568916,
+      "level": "Primary"
+    },
+    {
+      "id": "h_90",
+      "name": null,
+      "lat": 12.284094,
+      "lng": 76.617952,
+      "level": "Primary"
+    },
+    {
+      "id": "h_91",
+      "name": null,
+      "lat": 12.289374,
+      "lng": 76.574383,
+      "level": "Primary"
+    },
+    {
+      "id": "h_92",
+      "name": null,
+      "lat": 12.324106,
+      "lng": 76.617287,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_93",
+      "name": null,
+      "lat": 12.254891,
+      "lng": 76.593236,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_94",
+      "name": null,
+      "lat": 12.282153,
+      "lng": 76.63099,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_95",
+      "name": null,
+      "lat": 12.282035,
+      "lng": 76.62498,
+      "level": "Primary"
+    },
+    {
+      "id": "h_96",
+      "name": null,
+      "lat": 12.325844,
+      "lng": 76.55807,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_97",
+      "name": null,
+      "lat": 12.302277,
+      "lng": 76.622734,
+      "level": "Primary"
+    },
+    {
+      "id": "h_98",
+      "name": null,
+      "lat": 12.28836,
+      "lng": 76.625689,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_99",
+      "name": null,
+      "lat": 12.251952,
+      "lng": 76.601311,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_100",
+      "name": null,
+      "lat": 12.304051,
+      "lng": 76.606818,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_101",
+      "name": null,
+      "lat": 12.275734,
+      "lng": 76.639921,
+      "level": "Primary"
+    },
+    {
+      "id": "h_102",
+      "name": null,
+      "lat": 12.346149,
+      "lng": 76.568976,
+      "level": "Secondary"
+    },
+    {
+      "id": "h_103",
+      "name": null,
+      "lat": 12.339151,
+      "lng": 76.621296,
+      "level": "Primary"
+    },
+    {
+      "id": "h_104",
+      "name": null,
+      "lat": 12.251361,
+      "lng": 76.611693,
+      "level": "Tertiary"
+    },
+    {
+      "id": "h_105",
+      "name": null,
+      "lat": 12.305392,
+      "lng": 76.618252,
+      "level": "Secondary"
+    }
+  ],
+  "wards": [
+    {
+      "id": 14,
+      "name": "Nazarbad",
+      "zone": "Zone A"
+    },
+    {
+      "id": 15,
+      "name": "Lashkar Mohalla",
+      "zone": "Zone A"
+    },
+    {
+      "id": 16,
+      "name": "Mandavadi Mohalla",
+      "zone": "Zone A"
+    },
+    {
+      "id": 17,
+      "name": "Palace Ward",
+      "zone": "Zone A"
+    },
+    {
+      "id": 18,
+      "name": "Agrahara",
+      "zone": "Zone A"
+    },
+    {
+      "id": 19,
+      "name": "Devaraja Mohalla",
+      "zone": "Zone B"
+    },
+    {
+      "id": 20,
+      "name": "Mandi Mohalla",
+      "zone": "Zone B"
+    },
+    {
+      "id": 21,
+      "name": "Chamarajapuram",
+      "zone": "Zone B"
+    },
+    {
+      "id": 8,
+      "name": "Bannimantap A",
+      "zone": "Zone C"
+    },
+    {
+      "id": 9,
+      "name": "Bannimantap B",
+      "zone": "Zone C"
+    },
+    {
+      "id": 30,
+      "name": "Vijayanagara 1st Stage",
+      "zone": "Zone D"
+    },
+    {
+      "id": 31,
+      "name": "Vijayanagara 2nd Stage",
+      "zone": "Zone D"
+    },
+    {
+      "id": 40,
+      "name": "Kuvempu Nagar",
+      "zone": "Zone E"
+    },
+    {
+      "id": 55,
+      "name": "Hebbal",
+      "zone": "Zone F"
+    },
+    {
+      "id": 60,
+      "name": "Chamundi Hill",
+      "zone": "Zone G"
+    },
+    {
+      "id": 25,
+      "name": "Railway Ward",
+      "zone": "Zone H"
+    }
+  ],
+  "schema_version": "v3"
+}

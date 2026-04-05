@@ -1,0 +1,2202 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-04T17:28:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/11147157",
+        "addr:district": "Mysuru",
+        "addr:full": "Near Metagalli Bus Stop",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Mysuru District Hospital",
+        "name:kn": "ಮೈಸೂರು ಜಿಲ್ಲಾ ಆಸ್ಪತ್ರೆ",
+        "name:tr": "Mysuru Bölge Hastanesi",
+        "source": "Local Knowledge",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6280435,
+          12.3498959
+        ]
+      },
+      "id": "relation/11147157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150869510",
+        "addr:city": "Mysuru",
+        "addr:street": "Ramanuja Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "JSS Hospital",
+        "name:kn": "ಜೇ.ಎಸ್.ಎಸ್. ಆಸ್ಪತ್ರೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6552185,
+          12.2959818
+        ]
+      },
+      "id": "way/150869510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168666666",
+        "amenity": "hospital",
+        "name": "Poornima Hospital",
+        "name:kn": "ಪೂರ್ಣಿಮಾ ಆಸ್ಪತ್ರೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6271986,
+          12.2729139
+        ]
+      },
+      "id": "way/168666666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/183313649",
+        "alt_name": "B G S Apollo Hospital",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Apollo Hospital",
+        "name:kn": "ಅಪೊಲೊ ಆಸ್ಪತ್ರೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6324329,
+          12.2958525
+        ]
+      },
+      "id": "way/183313649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/242454055",
+        "addr:city": "Mysore",
+        "addr:postcode": "570001",
+        "addr:street": "Sayyaji Rao Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Government Ayurveda Medical College",
+        "name:kn": "ಸರ್ಕಾರಿ ಅಯುರ್ವೇದ ಕಾಲೇಜು",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6516333,
+          12.3149518
+        ]
+      },
+      "id": "way/242454055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/296503412",
+        "addr:district": "Mysuru",
+        "addr:full": "Irwin Road, Mysuru",
+        "addr:postcode": "570001",
+        "addr:state": "Karnataka",
+        "alt_name": "K R Hospital",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Krishna Rajendra Hospital",
+        "name:etymology:wikidata": "Q2429324",
+        "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6498626,
+          12.3134375
+        ]
+      },
+      "id": "way/296503412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312362803",
+        "addr:district": "Mysuru",
+        "addr:full": "22/B, Vinoba , , Jayalakshmi Puram",
+        "addr:postcode": "570012",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Basappa Memorial Hospital",
+        "name:kn": "ಬಸಪ್ಪ ಸ್ಮಾರಕ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6204052,
+          12.320673
+        ]
+      },
+      "id": "way/312362803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314691237",
+        "addr:city": "Mysuru",
+        "addr:street": "Kamakshi Hospital Road",
+        "amenity": "hospital",
+        "name": "Kamakshi Hospital",
+        "name:kn": "ಕಾಮಾಕ್ಷಿ ಆಸ್ಪತ್ರೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6237359,
+          12.299563
+        ]
+      },
+      "id": "way/314691237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314806598",
+        "addr:city": "Mysuru",
+        "addr:street": "Mysore Ring Road",
+        "amenity": "hospital",
+        "name": "Narayana Hrudayalaya",
+        "name:kn": "ನಾರಾಯಣ ಹೃದಯಾಲಯ ಆಸ್ಪತ್ರೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6730831,
+          12.3445404
+        ]
+      },
+      "id": "way/314806598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315426763",
+        "addr:city": "Mysuru",
+        "addr:district": "Mysuru",
+        "addr:full": "M G Road",
+        "addr:postcode": "570002",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "building": "college",
+        "name": "JSS Medical College",
+        "source": "OpenGovernmentData",
+        "wikidata": "Q6108959",
+        "wikimedia_commons": "Category:JSS Medical College",
+        "wikipedia": "en:JSS Medical College",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6526544,
+          12.3443681
+        ]
+      },
+      "id": "way/315426763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316747947",
+        "addr:city": "Mysuru",
+        "addr:district": "Mysuru",
+        "addr:full": "T Narasipura Road, Opp Nazarbad Police Station",
+        "addr:postcode": "570010",
+        "addr:state": "Karnataka",
+        "addr:street": "Bannur Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Gopalagowda Shanthaveri Memorial Hospital",
+        "name:kn": "ಶಾಂತವೇರಿ ಗೋಪಾಲಗೌಡ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6679217,
+          12.3086153
+        ]
+      },
+      "id": "way/316747947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320649146",
+        "addr:district": "Mysuru",
+        "addr:full": "966/2, Jlb Road, Chamrajamohalla, Lakshmipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "name": "Vasan Eye Care Hospital, Mysuru",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6436633,
+          12.2961979
+        ]
+      },
+      "id": "way/320649146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/329067435",
+        "amenity": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6522079,
+          12.2888184
+        ]
+      },
+      "id": "way/329067435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/352015023",
+        "addr:city": "Mysuru",
+        "addr:district": "Mysuru",
+        "addr:full": "Teresian Circle, Siddartha Nagar",
+        "addr:postcode": "570011",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Cauvery Hospital",
+        "name:kn": "ಕಾವೇರಿ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6959064,
+          12.3053048
+        ]
+      },
+      "id": "way/352015023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369956387",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mysore Dental Care",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6151279,
+          12.3256504
+        ]
+      },
+      "id": "way/369956387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/465192842",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "ESI Hospital",
+        "name:kn": "ಇಎಸ್ಐ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6323943,
+          12.3383212
+        ]
+      },
+      "id": "node/465192842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/465196073",
+        "addr:district": "Mysuru",
+        "addr:full": "417 Contour Road, Gokulam Ii Nd Stag Near Vijaya Bank",
+        "addr:postcode": "570002",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Adithya Adhikari Hospital",
+        "name:kn": "ಆದಿತ್ಯ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6271812,
+          12.3315512
+        ]
+      },
+      "id": "node/465196073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475505915",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 644, 4Th Main, Arvind Nagar",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Arvinda Nursing Home",
+        "name:kn": "ಅರವಿಂದ ನರ್ಸಿಂಗ್ ಹೋಮ್",
+        "source": "OpenGovernmentData",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6293127,
+          12.2779175
+        ]
+      },
+      "id": "way/475505915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498147947",
+        "addr:city": "Mysuru",
+        "addr:housenumber": "H-1",
+        "addr:street": "Vinaya Marga",
+        "amenity": "hospital",
+        "name": "MRC Eye Hospital",
+        "phone": "0821 247 2102",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.679204,
+          12.30358
+        ]
+      },
+      "id": "way/498147947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525517808",
+        "addr:city": "Mysore",
+        "addr:street": "Krishnaraja Sagara Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "P. K. Sanitorium",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297534,
+          12.3410431
+        ]
+      },
+      "id": "way/525517808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/542383450",
+        "amenity": "hospital",
+        "name": "Ashoka Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6423443,
+          12.2922036
+        ]
+      },
+      "id": "node/542383450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/741179471",
+        "addr:district": "Mysuru",
+        "addr:full": "Siddique Nagar, Bannimantap, Mysuru",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Manipal Hospital",
+        "name:kn": "ಮಣಿಪಾಲ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6602337,
+          12.3499281
+        ]
+      },
+      "id": "way/741179471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1221006184",
+        "amenity": "hospital",
+        "name": "Bone & Joint Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.644961,
+          12.2655089
+        ]
+      },
+      "id": "node/1221006184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1428214845",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Srinivasa Multispeciality Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.663312,
+          12.32879
+        ]
+      },
+      "id": "way/1428214845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1636785470",
+        "amenity": "hospital",
+        "designation": "Diagnostic Centre",
+        "emergency": "no",
+        "name": "Clumax Diagnostics",
+        "source": "MedAll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6412904,
+          12.2951389
+        ]
+      },
+      "id": "node/1636785470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1654526646",
+        "addr:district": "Mysuru",
+        "addr:full": "#2909,New No.22&22/1,Temple Road,Near Vontikoppal Police Station,V.V.Mohalla",
+        "addr:postcode": "570002",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Vikram Jyoti, Mysuru",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6320872,
+          12.3247991
+        ]
+      },
+      "id": "node/1654526646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681456812",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Sharan Dental Care"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6259464,
+          12.2849783
+        ]
+      },
+      "id": "node/1681456812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3328017132",
+        "addr:district": "Mysuru",
+        "addr:full": "Mandi Mohalla , Na",
+        "addr:postcode": "570009",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Csi Holdsworth Memorial Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6500703,
+          12.320427
+        ]
+      },
+      "id": "node/3328017132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3377620761",
+        "addr:city": "Mysore",
+        "addr:housenumber": "237",
+        "addr:postcode": "5700029",
+        "addr:street": "Teachers Layout",
+        "amenity": "hospital",
+        "name": "Dr S Kalyana Sundaram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6927032,
+          12.3120415
+        ]
+      },
+      "id": "node/3377620761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3390878930",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 242 Old Mysore - Bangalore Road",
+        "addr:postcode": "570015",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Bibi Ayesha Milli Hospital",
+        "name:kn": "ಬಿಬೀ ಅಯೇಶ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.657289,
+          12.336883
+        ]
+      },
+      "id": "node/3390878930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630605049",
+        "addr:district": "Mysuru",
+        "addr:full": "1075/B Akkamahadevi Road,Killa Mohalla Jp Nagar, 2nd Stage",
+        "addr:postcode": "570008",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Panacea Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6443444,
+          12.2599361
+        ]
+      },
+      "id": "node/3630605049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630708635",
+        "amenity": "hospital",
+        "name": "Medical Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6251452,
+          12.291938
+        ]
+      },
+      "id": "node/3630708635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630719491",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "name:kn": "ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6449273,
+          12.2594555
+        ]
+      },
+      "id": "node/3630719491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630731625",
+        "amenity": "hospital",
+        "name": "Mysore Beedi Hospital",
+        "name:kn": "ಬೀಡಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6878529,
+          12.32895
+        ]
+      },
+      "id": "node/3630731625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630740152",
+        "addr:district": "Mysuru",
+        "addr:full": "313, Deewans Road Near Marimallappa College Deewans Road",
+        "addr:postcode": "570024",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sushrutha Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6455915,
+          12.306409
+        ]
+      },
+      "id": "node/3630740152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3648909388",
+        "amenity": "hospital",
+        "name": "B N Shankar Nursing Home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6645852,
+          12.3353286
+        ]
+      },
+      "id": "node/3648909388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3997947136",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570009",
+        "addr:street": "Sarasvatipuram 4th Main",
+        "amenity": "hospital",
+        "name": "Katil Dental clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6324517,
+          12.3023267
+        ]
+      },
+      "id": "node/3997947136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4019475741",
+        "amenity": "hospital",
+        "name": "Lakshman Shetty Dental Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6218047,
+          12.325512
+        ]
+      },
+      "id": "node/4019475741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4035082180",
+        "amenity": "hospital",
+        "name": "Skin Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6240479,
+          12.3248493
+        ]
+      },
+      "id": "node/4035082180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4852190221",
+        "amenity": "hospital",
+        "name": "Nethradhama Eye Hospital",
+        "name:kn": "ನೇತ್ರಧಾಮ ಕಣ್ಣಿನ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6413368,
+          12.2973328
+        ]
+      },
+      "id": "node/4852190221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4892779430",
+        "addr:district": "Mysuru",
+        "addr:full": "981, Panchamantra Road, Kuvempu Nagara, Mysore",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "addr:street": "Pancamantra Road",
+        "amenity": "hospital",
+        "name": "Netra Jyothi Eye Hospital & Phaco Cataract Surgery Centre",
+        "name:en": "Netra Jyothi Eye Hospital, Dr Mahesh Kumar",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6269171,
+          12.2882524
+        ]
+      },
+      "id": "node/4892779430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5773582342",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "name:kn": "ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6359379,
+          12.2918023
+        ]
+      },
+      "id": "node/5773582342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938637672",
+        "addr:district": "Mysuru",
+        "addr:full": "No.25, 1st Main , T.K. Layout, Near Maruthi Temple Kuvempunagar",
+        "addr:postcode": "570009",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Murthy Eye Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6201584,
+          12.3019925
+        ]
+      },
+      "id": "node/6938637672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938762575",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 873, M. G. Road, Laksmipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Preethi Centre For Oncology",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6455086,
+          12.2988923
+        ]
+      },
+      "id": "node/6938762575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938777920",
+        "addr:district": "Mysuru",
+        "addr:full": "1475, 1 st Floor , Above Hotel Venkatesh Bhavan , Near Ayurvedic Hospital , Mission Hospital Road",
+        "addr:postcode": "570001",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Netra Jyothi Eye Hospital",
+        "name:kn": "ನೇತ್ರಜ್ಯೋತಿ ಕಣ್ಣಿನ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6510481,
+          12.3161539
+        ]
+      },
+      "id": "node/6938777920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938830624",
+        "addr:district": "Mysuru",
+        "addr:full": "Near Nilgiris Super Market, Vinoba Road, Hunsur Road",
+        "addr:postcode": "570012",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "City Bone and Joint Center",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6294833,
+          12.3165288
+        ]
+      },
+      "id": "node/6938830624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938918643",
+        "addr:district": "Mysuru",
+        "addr:full": "#P2, Jcst, E & F Block,Anikethana Road, Kuvemu Nagar,Behind Gnana Ganga School",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Bhanavi Hospital",
+        "name:kn": "ಭಾನವಿ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6271737,
+          12.2927546
+        ]
+      },
+      "id": "node/6938918643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6939013283",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 438, Hebbal Outer Ring Road",
+        "addr:postcode": "570016",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Bharath Hospital and Institute Of Oncology",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6082923,
+          12.3528459
+        ]
+      },
+      "id": "node/6939013283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944194878",
+        "addr:district": "Mysuru",
+        "addr:full": "Narayana Shastry Road, Chamundipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Mythri Hospital, Mysuru",
+        "name:kn": "ಮೈತ್ರಿ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6494012,
+          12.2902204
+        ]
+      },
+      "id": "node/6944194878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944231442",
+        "addr:district": "Mysuru",
+        "addr:full": "OppositeTo Sbm Bank, J.S.S Hospital, Ramanuja Road, Agrahara",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Mithi Surgery Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6536548,
+          12.2972852
+        ]
+      },
+      "id": "node/6944231442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944276822",
+        "addr:district": "Mysuru",
+        "addr:full": "#2876, 4Th Cross,Narayana Shastry Road, Chamundipuram,Opposite G.R.T,Chamundipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Vidyaranya Hospital (P) Ltd",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6496627,
+          12.2887482
+        ]
+      },
+      "id": "node/6944276822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944276841",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 877 / 1, Dewans Road, Lakshmipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Usha Kiran Eye Hospital and Usha Kiran Charitable Trust",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6443821,
+          12.2982394
+        ]
+      },
+      "id": "node/6944276841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944276847",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 73/B, Vinaya Marga, Siddarthanagar",
+        "addr:postcode": "570011",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "A V Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6814382,
+          12.3040307
+        ]
+      },
+      "id": "node/6944276847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944507671",
+        "addr:district": "Mysuru",
+        "addr:full": "#13,4Th Cross,7Nth Main,Brindavan Extn.",
+        "addr:postcode": "570001",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Priyadarshini General Hospital",
+        "name:kn": "ಪ್ರಿಯದರ್ಶಿನಿ ಸಾರ್ವಜನಿಕ ಆಸ್ಪತ್ರೆ",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6333455,
+          12.342081
+        ]
+      },
+      "id": "node/6944507671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944561971",
+        "addr:district": "Mysuru",
+        "addr:full": "# 1120/F-58 B, 1st Main, J. L. B. Road, Vidyaranyapuram",
+        "addr:postcode": "570008",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Rama Krishna Hospital, Mysuru",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6518205,
+          12.2861464
+        ]
+      },
+      "id": "node/6944561971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944578885",
+        "addr:district": "Mysuru",
+        "addr:full": "No. 03, Mahadevapura Double Road, Opposite Jss Jan Shikshan Samsthan, Udayagiri",
+        "addr:postcode": "570019",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sri Srinivasa Hospital, Mysuru",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6768898,
+          12.3245957
+        ]
+      },
+      "id": "node/6944578885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6944996519",
+        "addr:district": "Mysuru",
+        "addr:full": "Sita Ranga Healthcare Complex,No.1659, Narayan Shastri Road,Narayan Shastri Road, Lakshmipuram",
+        "addr:postcode": "570008",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Vaatsalaya Hospital, Mysuru",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.648398,
+          12.2952836
+        ]
+      },
+      "id": "node/6944996519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6945192067",
+        "addr:district": "Mysuru",
+        "addr:full": "410 Contour Road Gokulam 3Road Stage",
+        "addr:postcode": "570007",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ramesh Hospital For Piles and Proctology",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6563984,
+          12.3101589
+        ]
+      },
+      "id": "node/6945192067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6945716390",
+        "addr:district": "Mysuru",
+        "addr:full": "933 Hemaganga 1st Main Laxmipuram",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Simha Heart Foundation",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6466251,
+          12.2965546
+        ]
+      },
+      "id": "node/6945716390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6947293187",
+        "addr:district": "Mysuru",
+        "addr:full": "Opposite Sangeetha Lodge, 1374, Naryana Shastri Road",
+        "addr:postcode": "570001",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sharda Surgery and Cyro- Surgery Centre",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.647771,
+          12.3113639
+        ]
+      },
+      "id": "node/6947293187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6948503464",
+        "addr:district": "Mysuru",
+        "addr:full": "1498, Ramaiyer Road, K.M.Puram, Near Sharadavilas Educational Institutions",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Raman Memorial Hospital-Mysore",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6422933,
+          12.2922659
+        ]
+      },
+      "id": "node/6948503464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6948620732",
+        "addr:district": "Mysuru",
+        "addr:full": "25/1A Irwin Road",
+        "addr:postcode": "570024",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Chitra's Hospital",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6552249,
+          12.3144454
+        ]
+      },
+      "id": "node/6948620732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7202979471",
+        "addr:district": "Mysore",
+        "addr:full": "Naimisham Campus, Road No.3, Manasagangothri,Mysuru, Karnataka",
+        "addr:postcode": "570006",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "All India Institute of Speech and Hearing, Mysore",
+        "source": "OpenGovernmentData"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.616929,
+          12.308723
+        ]
+      },
+      "id": "node/7202979471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027204",
+        "addr:district": "Mysuru",
+        "addr:full": "Agrahara, Fort Mohalla, Mysuru",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Anagha Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6524005,
+          12.2996624
+        ]
+      },
+      "id": "node/7562027204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027208",
+        "addr:district": "Mysuru",
+        "addr:full": "Vijayanagar, Mysuru",
+        "addr:postcode": "570012",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Clearmedi Radiant Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.609247,
+          12.3217256
+        ]
+      },
+      "id": "node/7562027208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027209",
+        "addr:district": "Mysuru",
+        "addr:full": "Vishwapatha Road, Kuvempu Nagara, Mysore",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sourabha Superspeciality Heart Care Centre",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6242974,
+          12.2873804
+        ]
+      },
+      "id": "node/7562027209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027210",
+        "addr:district": "Mysuru",
+        "addr:full": "Adhichuchunagiri Road, Kuvempu Nagara, Mysore",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Dr. Agarwals Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6309373,
+          12.2863447
+        ]
+      },
+      "id": "node/7562027210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027211",
+        "addr:district": "Mysuru",
+        "addr:full": "ESI Hospital Road, Subbarayanakere, Chamrajpura, Mysuru",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ESI Hospital",
+        "name:kn": "ಇಎಸ್ಐ ಆಸ್ಪತ್ರೆ",
+        "operator": "Employees' State Insurance",
+        "operator:short": "ESI",
+        "operator:wikidata": "Q3595726",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6471859,
+          12.3079269
+        ]
+      },
+      "id": "node/7562027211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027217",
+        "addr:district": "Mysuru",
+        "addr:full": "Vontikoppal, Mysuru",
+        "addr:postcode": "570002",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "DRM Multi Speciality Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6321094,
+          12.32484
+        ]
+      },
+      "id": "node/7562027217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027220",
+        "addr:district": "Mysuru",
+        "addr:full": "Hanumantha Nagar, Bannimantap, Mysuru",
+        "addr:postcode": "570015",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "K.S.R.T.C. Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6523561,
+          12.3364551
+        ]
+      },
+      "id": "node/7562027220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027221",
+        "addr:district": "Mysuru",
+        "addr:full": "Gandhi Nagar, Gayathri Puram, Mysuru",
+        "addr:postcode": "570007",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Disha Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6642719,
+          12.3233058
+        ]
+      },
+      "id": "node/7562027221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027231",
+        "addr:district": "Mysuru",
+        "addr:full": "14th Main Road, Saraswathipuram, Mysore",
+        "addr:postcode": "570009",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Agasthya Hospital",
+        "name:kn": "ಅಗಸ್ತ್ಯ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6281828,
+          12.3021508
+        ]
+      },
+      "id": "node/7562027231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027237",
+        "addr:district": "Mysuru",
+        "addr:full": "Mohammed Sait Block, Earangere, Gayathri Puram, Mysuru",
+        "addr:postcode": "570007",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Al Ansaar Hospital",
+        "name:kn": "ಅಲ್ ಅನ್ಸಾರ್ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.663692,
+          12.3193378
+        ]
+      },
+      "id": "node/7562027237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027241",
+        "addr:district": "Mysuru",
+        "addr:full": "452, Paduvana Road, A and B Complex, Kuvempunagara North, TK Layout, Mysore",
+        "addr:postcode": "570009",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Prerana Hospital",
+        "name:kn": "ಪ್ರೇರಣ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6223539,
+          12.2886897
+        ]
+      },
+      "id": "node/7562027241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027243",
+        "addr:district": "Mysuru",
+        "addr:full": "Khb Colony, Kuvempu Nagara, Mysore",
+        "addr:postcode": "570008",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Bhanavi Hospital",
+        "name:kn": "ಭಾನವಿ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6274948,
+          12.2835486
+        ]
+      },
+      "id": "node/7562027243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027253",
+        "addr:district": "Mysuru",
+        "addr:full": "Sriramapura, Mysore",
+        "addr:postcode": "570023",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Nataraja Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6274538,
+          12.2728089
+        ]
+      },
+      "id": "node/7562027253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027258",
+        "addr:district": "Mysuru",
+        "addr:full": "Sriramapura, BEML Nagar, Mysore",
+        "addr:postcode": "570008",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Danvantri Hospital",
+        "name:kn": "ಧನವಂತ್ರಿ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6235469,
+          12.2625556
+        ]
+      },
+      "id": "node/7562027258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027263",
+        "addr:district": "Mysuru",
+        "addr:full": "Narsipura Road, Nagara, Mysuru",
+        "addr:postcode": "570028",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Shakthi Hill View Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6933065,
+          12.3015129
+        ]
+      },
+      "id": "node/7562027263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027266",
+        "addr:district": "Mysuru",
+        "addr:full": "KRS Road, Kumbarakoppal, Mahadeshwara Badavane Layout, Mysuru",
+        "addr:postcode": "570016",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Jayadeva Hospital",
+        "name:kn": "ಜಯದೇವ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6236452,
+          12.3413058
+        ]
+      },
+      "id": "node/7562027266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027269",
+        "addr:district": "Mysuru",
+        "addr:full": "Vishwashanti PU College, Kamakshi Hospital Road, Kuvempunagara North, Kuvempu Nagara, Mysore",
+        "addr:postcode": "570009",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sigma Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6239723,
+          12.3003215
+        ]
+      },
+      "id": "node/7562027269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027270",
+        "addr:district": "Mysuru",
+        "addr:full": "Chamarajapura, Chamarajapuram Mohalla, Lakshmipuram, Mysore",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sindhu Eye Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6393656,
+          12.2960015
+        ]
+      },
+      "id": "node/7562027270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027272",
+        "addr:district": "Mysuru",
+        "addr:full": "Mangalore - Mysore Highway, Chamarajapura, Chamarajapuram Mohalla, Lakshmipuram, Mysuru",
+        "addr:postcode": "570005",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Preety Cancer Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6433102,
+          12.301903
+        ]
+      },
+      "id": "node/7562027272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027273",
+        "addr:district": "Mysuru",
+        "addr:full": "Kalidasa Road, Vani Vilas Mohalla, Mysuru",
+        "addr:postcode": "570002",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Brindavan Hospital",
+        "name:kn": "ಬೃಂದಾವನ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6271655,
+          12.3233006
+        ]
+      },
+      "id": "node/7562027273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027276",
+        "addr:district": "Mysuru",
+        "addr:full": "Near K.R Hospital, Kabir Road, CFTRI Campus, Yadavagiri, Mysuru",
+        "addr:postcode": "570021",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hitech Kidney Stone Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6504964,
+          12.316897
+        ]
+      },
+      "id": "node/7562027276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027283",
+        "addr:district": "Mysuru",
+        "addr:full": "Shakthi Nagar Post, Dr Rajkumar Main Road, JSS Layout, Mysuru",
+        "addr:postcode": "570011",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Dr. Jyothis Health Care Private Limited",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6913103,
+          12.3174549
+        ]
+      },
+      "id": "node/7562027283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027284",
+        "addr:district": "Mysuru",
+        "addr:full": "Bettadpura, Mysuru",
+        "addr:postcode": "570004",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Leelavathi Hospital",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6523576,
+          12.2875301
+        ]
+      },
+      "id": "node/7562027284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027299",
+        "addr:district": "Mysuru",
+        "addr:full": "Dewance Road, Near Chamraja Mohalla, Mysuru",
+        "addr:postcode": "570024",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Sapthagiri Hospital",
+        "name:kn": "ಸಪ್ತಗಿರಿ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6443991,
+          12.302911
+        ]
+      },
+      "id": "node/7562027299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027304",
+        "addr:district": "Mysuru",
+        "addr:full": "Tilak Nagar, Mysuru",
+        "addr:postcode": "570001",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gayatri Hospital",
+        "name:kn": "ಗಾಯತ್ರಿ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.648926,
+          12.320474
+        ]
+      },
+      "id": "node/7562027304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027314",
+        "addr:district": "Mysuru",
+        "addr:full": "Brindavan Extension 1st Stage, Brindavan Extension, Mysuru",
+        "addr:postcode": "570016",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Priyadarshini General Hospital",
+        "name:kn": "ಪ್ರಿಯದರ್ಶಿನಿ ಸಾರ್ವಜನಿಕ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.633334,
+          12.342084
+        ]
+      },
+      "id": "node/7562027314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7562027316",
+        "addr:district": "Mysuru",
+        "addr:full": "KRS Road, Brindavan Extension 1st Stage, Brindavan Extension, Mysuru",
+        "addr:postcode": "570020",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Government Panchakarma Hospital",
+        "name:kn": "ಸರ್ಕಾರ ಪಂಚಕರ್ಮ ಆಸ್ಪತ್ರೆ",
+        "source": "Local Knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6323705,
+          12.3407605
+        ]
+      },
+      "id": "node/7562027316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188037832",
+        "addr:full": "Bangalore - Mysore Rd, Bannimantap, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "St Josephs Hospital",
+        "name:kn": "ಸೇಂಟ್ ಜೋಸೆಫ್ ಅಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6555307,
+          12.3413224
+        ]
+      },
+      "id": "node/8188037832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038158",
+        "addr:full": "Vontikoppal Railway Colony, V V Mohalla, V V Mohalla, Gokulam 4th Stage, Gokulam, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Railway Hospital",
+        "name:kn": "ರೈಲ್ವೇ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.635622,
+          12.3257179
+        ]
+      },
+      "id": "node/8188038158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038214",
+        "addr:full": "Vontikoppal, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "V V Puram Esi Hosital Dispensary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.633185,
+          12.3230417
+        ]
+      },
+      "id": "node/8188038214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038278",
+        "addr:full": "Opp Mysore Medical College, KR Hospital Compound, Irwin Rd, Devaraja Mohalla, Devraj Mohalla, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Cheluvamba Hospital",
+        "name:kn": "ಚೆಲುವಾಂಬ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6493079,
+          12.3141191
+        ]
+      },
+      "id": "node/8188038278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038332",
+        "addr:full": "university of mysore campus, Manasa Gangothiri, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Government Hospital",
+        "name:kn": "ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6162139,
+          12.3127981
+        ]
+      },
+      "id": "node/8188038332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038566",
+        "addr:full": "TK layout, 90, Kuvempunagara North, TK Layout, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Government Hospital",
+        "name:kn": "ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6189567,
+          12.3017591
+        ]
+      },
+      "id": "node/8188038566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038588",
+        "addr:full": "662, Vishwamanava Double Road, Saraswathipuram, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Poornima Hospital",
+        "name:kn": "ಪೂರ್ಣಿಮಾ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6263986,
+          12.3003795
+        ]
+      },
+      "id": "node/8188038588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038825",
+        "addr:full": "Ashokapuram, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "St. Marys DE Addiction Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6419027,
+          12.2844714
+        ]
+      },
+      "id": "node/8188038825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038829",
+        "addr:full": "Dakshineshwara Marga, Ramakrishnanagar, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Suyog Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.620141,
+          12.2822952
+        ]
+      },
+      "id": "node/8188038829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038832",
+        "addr:full": "State Bank Of Mysore, 671/B, M Block, Nrupatunga Rd, Kuvempu Nagar 1st Stage, Kuvempu Nagara, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Karuna Hospital",
+        "name:kn": "ಕರುಣಾ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6253639,
+          12.2797607
+        ]
+      },
+      "id": "node/8188038832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188038843",
+        "addr:full": "N H Palya, Block D, JP Nagar, Mysuru, Karnataka 5700031",
+        "addr:state": "Karnataka",
+        "amenity": "hospital",
+        "name": "Kamakshi Hospital",
+        "name:kn": "ಕಾಮಾಕ್ಷಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6356659,
+          12.2650041
+        ]
+      },
+      "id": "node/8188038843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8919088127",
+        "addr:city": "Mysuru",
+        "addr:housenumber": "#4647/1 first floor",
+        "addr:postcode": "570007",
+        "addr:street": "Shivaji Main Road N R Mohalla",
+        "amenity": "hospital",
+        "description": "Above State Bank of India",
+        "ele": "1",
+        "email": "drhemanthkumarkv@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "Diabetologist;general",
+        "name": "Srinivasa Polyclinic & Day Care",
+        "operator": "Dr Hemanth Kumar K V",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6635769,
+          12.3288588
+        ]
+      },
+      "id": "node/8919088127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8984979754",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570009",
+        "addr:street": "Kamakshi Hospital Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;dentist;vaccination",
+        "name": "Kamakshi Hospital",
+        "name:kn": "ಕಾಮಾಕ್ಷಿ ಆಸ್ಪತ್ರೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6238224,
+          12.2996984
+        ]
+      },
+      "id": "node/8984979754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12623939199",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Health Center",
+        "name:kn": "ಆರೋಗ್ಯ ಕೇಂದ್ರ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6190672,
+          12.3360301
+        ]
+      },
+      "id": "node/12623939199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12946564392",
+        "addr:city": "Mysuru",
+        "addr:district": "Mysuru",
+        "addr:housenumber": "262",
+        "addr:postcode": "570002",
+        "addr:street": "Sapthagiri Shopping Complex, 2nd Main Rd, Gokulam 2nd Stage, Vani Vilas Mohalla, Karnataka",
+        "amenity": "hospital",
+        "email": "Balajielitedental@gmail.com",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dental_oral_maxillo_facial_surgery;dentistry;dentist",
+        "name": "Balaji Elite Dental",
+        "operator": "Dr. Madhura Ram",
+        "operator:type": "private",
+        "website": "Balajielitedental.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6300692,
+          12.3296427
+        ]
+      },
+      "id": "node/12946564392"
+    }
+  ]
+}

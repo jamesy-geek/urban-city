@@ -1,0 +1,1389 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-04T17:52:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43172621",
+        "amenity": "school",
+        "name": "Arasu Boarding School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6386472,
+          12.3022362
+        ]
+      },
+      "id": "way/43172621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43173899",
+        "amenity": "school",
+        "name": "Government Primary School",
+        "name:kn": "ಸರ್ಕಾರಿ ಪ್ರಾಥಮಿಕ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6390035,
+          12.2928385
+        ]
+      },
+      "id": "way/43173899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/157808942",
+        "amenity": "school",
+        "name": "Maharshi Educational Institutions",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.645168,
+          12.2723253
+        ]
+      },
+      "id": "way/157808942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168666296",
+        "amenity": "school",
+        "name": "St. Josephs Central school",
+        "name:kn": "ಸೆಂಟ್ ಜೋಸೆಫ್ ಕೇಂದ್ರೀಯ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6078541,
+          12.3321403
+        ]
+      },
+      "id": "way/168666296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168666435",
+        "amenity": "school",
+        "name": "JSS Public school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6431938,
+          12.2603993
+        ]
+      },
+      "id": "way/168666435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/193442321",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570012",
+        "amenity": "school",
+        "name": "St Joseph's Educational Institutions",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6237773,
+          12.3190544
+        ]
+      },
+      "id": "way/193442321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/227504218",
+        "amenity": "school",
+        "name": "St Mary's School",
+        "name:kn": "ಸೇಂಟ್ ಮೇರಿಸ್ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6519037,
+          12.2867309
+        ]
+      },
+      "id": "way/227504218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229731945",
+        "addr:city": "Mysore",
+        "addr:housename": "Sri Satya Sai Baba Higher Primary School",
+        "addr:postcode": "570012",
+        "addr:street": "Ashrama Road",
+        "alt_name": "Sai Baba School",
+        "amenity": "school",
+        "name": "Sri Sathya Sai Baba Higher Primary School",
+        "name:kn": "ಶ್ರೀ ಸತ್ಯ ಸಾಯಿ ಬಾಬಾ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6251405,
+          12.3209573
+        ]
+      },
+      "id": "way/229731945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233206186",
+        "addr:street": "Srirampura",
+        "amenity": "school",
+        "name": "Kautilya Vidyalaya",
+        "name:kn": "ಕೌಟಿಲ್ಯ ವಿದ್ಯಾಲಯ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6109179,
+          12.274116
+        ]
+      },
+      "id": "way/233206186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312533340",
+        "amenity": "school",
+        "name": "Hardwick High School",
+        "name:kn": "ಹಾರ್ಡ್ವಿಕ ಪ್ರೌಡಶಾಲೆ",
+        "wikidata": "Q27962993",
+        "wikipedia": "en:Hardwick High School and College",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6434182,
+          12.3004253
+        ]
+      },
+      "id": "way/312533340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315289484",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.628535,
+          12.2857787
+        ]
+      },
+      "id": "way/315289484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315320725",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6274442,
+          12.2995572
+        ]
+      },
+      "id": "way/315320725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315559051",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6831238,
+          12.3034755
+        ]
+      },
+      "id": "way/315559051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321235899",
+        "addr:city": "Mysuru",
+        "addr:street": "Ramavilas Road",
+        "amenity": "school",
+        "name": "Marimallapa's Educational Institutions",
+        "name:kn": "ಮರಿಮಲ್ಲಪ್ಪ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6466211,
+          12.306608
+        ]
+      },
+      "id": "way/321235899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321236120",
+        "addr:city": "Mysuru",
+        "addr:street": "Krishnavilas Road",
+        "amenity": "school",
+        "name": "Avila Convent",
+        "name:kn": "ಅವಿಲ ಕಾನ್ವೆಂಟ್",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6490125,
+          12.3069576
+        ]
+      },
+      "id": "way/321236120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/327210903",
+        "addr:city": "Mysuru",
+        "amenity": "school",
+        "name": "St. Thomas School",
+        "name:kn": "ಸೇಂಟ್ ತೋಮಸ್ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6431291,
+          12.2803869
+        ]
+      },
+      "id": "way/327210903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/330184298",
+        "amenity": "school",
+        "name": "S.V. Prajna Prinary, High School and College",
+        "name:kn": "ಎಸ್. ವಿ. ಪ್ರಜ್ಞ ಶಾಲೆ, ಕಾಲೇಜು",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6081101,
+          12.2854363
+        ]
+      },
+      "id": "way/330184298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331983535",
+        "amenity": "school",
+        "name": "St. Mathai's High School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6564243,
+          12.3395753
+        ]
+      },
+      "id": "way/331983535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360213153",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6157012,
+          12.3125075
+        ]
+      },
+      "id": "way/360213153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/369331157",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570009",
+        "addr:street": "Sarasvatipuram 11th Main",
+        "amenity": "school",
+        "building": "school",
+        "name": "Mahabodhi School",
+        "name:kn": "ಮಹಾಬೋಧಿ ಶಾಲೆ",
+        "phone": "91-821-2341603",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6299127,
+          12.3048586
+        ]
+      },
+      "id": "way/369331157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383054892",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6633878,
+          12.3351356
+        ]
+      },
+      "id": "way/383054892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/425981516",
+        "amenity": "school",
+        "name": "Paramahamsa Vidyaniketana School",
+        "name:kn": "ಪರಮಹಂಸ ವಿದ್ಯಾನಿಕೇತನ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6064027,
+          12.3426228
+        ]
+      },
+      "id": "way/425981516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/426391245",
+        "amenity": "school",
+        "name": "Sarvajanika High School",
+        "name:kn": "ಸಾರ್ವಜನಿಕ ಪ್ರೌಡಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6460352,
+          12.2850871
+        ]
+      },
+      "id": "way/426391245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/452374149",
+        "amenity": "school",
+        "name": "St. Philomena's School",
+        "name:kn": "ಸೇಂಟ್ ಫಿಲೋಮೇನ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6618099,
+          12.3212507
+        ]
+      },
+      "id": "way/452374149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/465192715",
+        "addr:city": "Mysore",
+        "addr:housenumber": "P-3",
+        "addr:postcode": "570002",
+        "addr:street": "6th Cross Road",
+        "amenity": "school",
+        "check_date": "2026-01-02",
+        "name": "Mysore West Lions Sevanikethan School",
+        "phone": "91-821-2511254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6299279,
+          12.3341765
+        ]
+      },
+      "id": "node/465192715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/465192999",
+        "amenity": "school",
+        "name": "Ramakrishna Vidyashala",
+        "name:kn": "ರಾಮಕೃಷ್ಣ ವಿದ್ಯಾಶಾಲೆ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6366858,
+          12.3272782
+        ]
+      },
+      "id": "node/465192999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/465195463",
+        "amenity": "school",
+        "name": "Nirmala Convent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6299481,
+          12.3286366
+        ]
+      },
+      "id": "node/465195463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475476825",
+        "amenity": "school",
+        "name": "Kaginele Kalidasa school",
+        "name:kn": "ಕಾಗಿನೆಲೆ ಕಾಳಿದಾಸ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297933,
+          12.2817582
+        ]
+      },
+      "id": "way/475476825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475476936",
+        "amenity": "school",
+        "name": "Sri Gokula School",
+        "name:kn": "ಶ್ರೀ ಗೋಕುಲ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297299,
+          12.2814256
+        ]
+      },
+      "id": "way/475476936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475589184",
+        "amenity": "school",
+        "name": "Kaveri School",
+        "name:kn": "ಕಾವೇರಿ ಶಾಲೆ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6317704,
+          12.2916911
+        ]
+      },
+      "id": "way/475589184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479680540",
+        "amenity": "school",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6431036,
+          12.2930029
+        ]
+      },
+      "id": "way/479680540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/487767350",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570012",
+        "addr:street": "Temple Road",
+        "amenity": "school",
+        "name": "Acharya Vidya Kula",
+        "name:kn": "ಆಚಾರ್ಯ ವಿದ್ಯಾ ಕುಲ",
+        "phone": "0821 251 3950",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6259898,
+          12.3198374
+        ]
+      },
+      "id": "way/487767350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540654209",
+        "alt_name": "Laxmipuram Government School",
+        "amenity": "school",
+        "int_name": "Laxmipuram Government School",
+        "name": "Government School;Raman IT",
+        "name:kn": "ಲಕ್ಷ್ಮೀಪುರಂ ಸರ್ಕಾರಿ ಶಾಲೆ",
+        "old_name": "Government School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6431092,
+          12.2978617
+        ]
+      },
+      "id": "node/540654209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1007505513",
+        "amenity": "school",
+        "name": "Gnanaganga Vidyapeeta",
+        "name:kn": "ಜ್ಞಾನಗಂಗಾ ವಿದ್ಯಾಪೀಠ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6275588,
+          12.2924283
+        ]
+      },
+      "id": "way/1007505513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1192131928",
+        "addr:city": "MYSORE",
+        "addr:postcode": "570019",
+        "addr:street": "MAHADEVAPURA MAIN ROAD",
+        "amenity": "school",
+        "name": "Police Public School",
+        "phone": "8212459900",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6719613,
+          12.3189775
+        ]
+      },
+      "id": "way/1192131928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1636799287",
+        "addr:postcode": "570001",
+        "addr:street": "Sharada Vilas Road",
+        "alt_name": "Sharada Vilas",
+        "amenity": "school",
+        "int_name": "Sharada Vilas",
+        "name": "Sharada Vilas School and College",
+        "old_name": "Sharada Vilas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6435489,
+          12.2914909
+        ]
+      },
+      "id": "node/1636799287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637364494",
+        "alt_name": "Ideal Jawa Rotary High School",
+        "amenity": "school",
+        "int_name": "Ideal Jawa Rotary High School",
+        "name": "Ideal Jawa Rotary High School",
+        "old_name": "Ideal Jawa Rotary High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6433369,
+          12.3131217
+        ]
+      },
+      "id": "node/1637364494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1638996823",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570004",
+        "addr:street": "Ramanuja Road",
+        "alt_name": "St. Mary's Girl's High Schrool",
+        "amenity": "school",
+        "int_name": "St. Mary's",
+        "name": "St. Mary's School",
+        "old_name": "St. Mary's",
+        "phone": "+918212442108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6523363,
+          12.2867825
+        ]
+      },
+      "id": "node/1638996823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1645739595",
+        "alt_name": "Ashoka Puram Government School",
+        "amenity": "school",
+        "int_name": "Ashoka Puram Government School",
+        "name": "Ashokapuram Government School",
+        "name:kn": "ಅಶೋಕಪುರಂ ಸರ್ಕಾರಿ ಶಾಲೆ",
+        "old_name": "Ashoka Puram Government School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6419285,
+          12.2903852
+        ]
+      },
+      "id": "node/1645739595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681443539",
+        "amenity": "school",
+        "name": "Dasthi Institute of Nursing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6271507,
+          12.2888911
+        ]
+      },
+      "id": "node/1681443539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681443547",
+        "amenity": "school",
+        "name": "Queen's Fashion Institute"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6277193,
+          12.2865429
+        ]
+      },
+      "id": "node/1681443547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681443548",
+        "amenity": "school",
+        "name": "NIIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6308216,
+          12.2887417
+        ]
+      },
+      "id": "node/1681443548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681456781",
+        "amenity": "school",
+        "name": "Net Focus Browsing Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6260429,
+          12.2844462
+        ]
+      },
+      "id": "node/1681456781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1798097064",
+        "addr:postcode": "570014",
+        "addr:street": "Vijaynagar",
+        "alt_name": "JSS School",
+        "amenity": "school",
+        "int_name": "JSS School",
+        "name": "JSS School",
+        "old_name": "JSS School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6129873,
+          12.3343942
+        ]
+      },
+      "id": "node/1798097064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2699746048",
+        "addr:city": "Mysore",
+        "addr:postcode": "570011",
+        "addr:street": "GITB Press Campus",
+        "amenity": "school",
+        "brand": "Kendriya Vidyalaya",
+        "brand:wikidata": "Q1156653",
+        "name": "Kendriya Vidyalaya",
+        "name:kn": "ಕೇಂದ್ರಿಯ ವಿದ್ಯಾಲಯ",
+        "operator": "Kendriya Vidyalaya Sangathan",
+        "operator:type": "government_non_profit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6852793,
+          12.3125903
+        ]
+      },
+      "id": "node/2699746048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3201086169",
+        "addr:city": "I Block, Ramakrishna Nagar",
+        "addr:housename": "Orchid School",
+        "addr:postcode": "570026",
+        "addr:street": "Vivekananda Road",
+        "amenity": "school",
+        "name": "Orchids School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6108417,
+          12.2909753
+        ]
+      },
+      "id": "node/3201086169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630983735",
+        "amenity": "school",
+        "name": "Teresian School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6906922,
+          12.3054532
+        ]
+      },
+      "id": "node/3630983735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4250888863",
+        "amenity": "school",
+        "name": "Jnana Gangotri",
+        "name:kn": "ಜ್ಞಾನ ಗಂಗೋತ್ರಿ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6649088,
+          12.3369899
+        ]
+      },
+      "id": "node/4250888863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444115027",
+        "addr:city": "Mysuru",
+        "addr:housenumber": "P-1,E",
+        "addr:postcode": "570022",
+        "addr:street": "Ramakrishna Nagara Main Road",
+        "amenity": "school",
+        "name": "Vishwamanava High School",
+        "name:kn": "ವಿಶ್ವಮಾನವ ಪ್ರೌಡಶಾಲೆ",
+        "phone": "91-821-2463002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.615012,
+          12.2920469
+        ]
+      },
+      "id": "node/4444115027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444155799",
+        "addr:city": "Mysore",
+        "addr:postcode": "570001",
+        "addr:street": "Narayana Shastri Road",
+        "amenity": "school",
+        "name": "Dalvoy A S School Committee",
+        "name:kn": "ಡಲ್ವೋಯ್ ಎ ಎಸ್ ಶಾಲೆ  ಸಮಿತಿ",
+        "phone": "91-821-2447597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6463657,
+          12.3037064
+        ]
+      },
+      "id": "node/4444155799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444160621",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570009",
+        "addr:street": "Sarasvatipuram 11th Main",
+        "amenity": "school",
+        "name": "Mahabodhi School",
+        "name:kn": "ಮಹಾಬೋಧಿ ಶಾಲೆ",
+        "phone": "91-821-2341603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297812,
+          12.3048276
+        ]
+      },
+      "id": "node/4444160621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444169254",
+        "addr:city": "Mysore",
+        "addr:postcode": "570015",
+        "addr:street": "Mysore - Bangalore Road",
+        "amenity": "school",
+        "name": "St Mathias Primary School",
+        "phone": "91-821-2491335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6499146,
+          12.3386828
+        ]
+      },
+      "id": "node/4444169254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444174743",
+        "addr:city": "Mysuru",
+        "addr:housenumber": "Site B",
+        "addr:postcode": "570014",
+        "addr:street": "Jayanagar 4th Main",
+        "amenity": "school",
+        "name": "Balodyana English School",
+        "phone": "91-821-2567513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6339185,
+          12.2944423
+        ]
+      },
+      "id": "node/4444174743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444175832",
+        "addr:city": "Mysore",
+        "addr:postcode": "570021",
+        "addr:street": "Omar Khayyam Road",
+        "amenity": "school",
+        "name": "Farooquia Higher Secondary School",
+        "phone": "91-821-2490710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6479529,
+          12.3254682
+        ]
+      },
+      "id": "node/4444175832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444183207",
+        "addr:city": "Mysore",
+        "addr:housenumber": "7",
+        "addr:postcode": "570008",
+        "addr:street": "C Block,J P Nagar",
+        "amenity": "school",
+        "name": "Vani Vidya Peeta School",
+        "phone": "91-821-2372527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6392317,
+          12.2761642
+        ]
+      },
+      "id": "node/4444183207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444201744",
+        "addr:city": "Mysore",
+        "addr:postcode": "570007",
+        "addr:street": "Link Road,N R Mohalla,Mesco Iti Building",
+        "amenity": "school",
+        "name": "Mesco Higher Primary School",
+        "phone": "91-821-2498947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6456274,
+          12.3032389
+        ]
+      },
+      "id": "node/4444201744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444259207",
+        "addr:city": "Mysore",
+        "addr:housenumber": "2799",
+        "addr:postcode": "570002",
+        "addr:street": "8th Cross,V V Mohalla",
+        "amenity": "school",
+        "name": "Mathuru Mandali School",
+        "phone": "91-821-2511058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6294503,
+          12.322017
+        ]
+      },
+      "id": "node/4444259207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444273764",
+        "addr:city": "Mysore",
+        "addr:postcode": "570009",
+        "addr:street": "4th Cross,16th Main,Saraswathipuram",
+        "amenity": "school",
+        "name": "Muktharunnisa Begam Royal English School",
+        "phone": "91-821-2544836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6270872,
+          12.3019587
+        ]
+      },
+      "id": "node/4444273764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444299025",
+        "addr:city": "Mysore",
+        "addr:housenumber": "897/1",
+        "addr:postcode": "570004",
+        "addr:street": "Chamundeswari Main Road",
+        "amenity": "school",
+        "name": "Dinkeys Higher Primary School",
+        "phone": "91-821-2332049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6455729,
+          12.3036388
+        ]
+      },
+      "id": "node/4444299025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444307019",
+        "addr:city": "Mysore",
+        "addr:postcode": "570020",
+        "addr:street": "Cftri Campur,Yadavgiri",
+        "amenity": "school",
+        "name": "Cftri School",
+        "phone": "91-821-2515381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6347949,
+          12.3210823
+        ]
+      },
+      "id": "node/4444307019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444316614",
+        "addr:city": "Mysore",
+        "addr:postcode": "570005",
+        "addr:street": "Krishnaraja Sagara Road",
+        "amenity": "school",
+        "name": "Ideal Jawa Rotary High School",
+        "phone": "91-821-2420416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6303327,
+          12.3436946
+        ]
+      },
+      "id": "node/4444316614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444324231",
+        "addr:city": "mysore",
+        "addr:housenumber": "548/549",
+        "addr:postcode": "570019",
+        "addr:street": "Rajeev Anagr,Udayagiri",
+        "amenity": "school",
+        "name": "Sri Andalus School",
+        "phone": "91-821-2454611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6755939,
+          12.3340304
+        ]
+      },
+      "id": "node/4444324231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444331874",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570010",
+        "addr:street": "Vanivilas Ursu Road,",
+        "amenity": "school",
+        "name": "Vanivilas Ursu Girls School",
+        "phone": "91-821-2520054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6665085,
+          12.3093394
+        ]
+      },
+      "id": "node/4444331874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444387818",
+        "addr:city": "Mysore",
+        "addr:housenumber": "114",
+        "addr:postcode": "570026",
+        "addr:street": "Bogadi Road",
+        "amenity": "school",
+        "name": "Amrita Vidyalayam",
+        "name:kn": "ಅಮೃತ ವಿದ್ಯಾಲಯಂ",
+        "phone": "0821 542959"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6063018,
+          12.3033173
+        ]
+      },
+      "id": "node/4444387818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444440840",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570012",
+        "addr:street": "4th Main Road",
+        "amenity": "school",
+        "name": "Chinmaya Saiukata Vidyalaya",
+        "name:kn": "ಚಿನ್ಮಯ ವಿದ್ಯಾಲಯ",
+        "phone": "8212510336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6232527,
+          12.3218997
+        ]
+      },
+      "id": "node/4444440840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444450491",
+        "addr:city": "mysore",
+        "addr:postcode": "570008",
+        "addr:street": "H.D.Kote Road,Lakshmipuram",
+        "amenity": "school",
+        "name": "Mysore Public School",
+        "name:kn": "ಮೈಸೂರು ಪಬ್ಲಿಕ್ ಶಾಲೆ",
+        "phone": "8212597917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.639374,
+          12.2958834
+        ]
+      },
+      "id": "node/4444450491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444458835",
+        "addr:city": "Mysuru",
+        "addr:postcode": "570006",
+        "addr:street": "Sjce Campus Road",
+        "amenity": "school",
+        "name": "DMS Primary School",
+        "phone": "9945888928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6138423,
+          12.3103951
+        ]
+      },
+      "id": "node/4444458835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4750810421",
+        "addr:housenumber": "897/1",
+        "addr:postcode": "570004",
+        "addr:street": "Narayana Shastri Road",
+        "amenity": "school",
+        "name": "Mysore Mandala Yogashala",
+        "name:en": "Mysore Mandala Yogashala",
+        "opening_hours": "Mo-Sa 06:00-19:00",
+        "website": "https://ashtanga.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6483102,
+          12.293627
+        ]
+      },
+      "id": "node/4750810421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5504660421",
+        "amenity": "school",
+        "name": "Krishnamachaar Yoga Shala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6498447,
+          12.3021996
+        ]
+      },
+      "id": "node/5504660421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6369579685",
+        "addr:housenumber": "387, 5th cross",
+        "addr:postcode": "570019",
+        "addr:street": "5th Cross Road",
+        "amenity": "school",
+        "name": "K. M. Zakee Ahmed",
+        "name:en": "KMA MANZIL RAJIVE NAGAR MYSORE, MYSURU",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "9686812430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6750171,
+          12.3326908
+        ]
+      },
+      "id": "node/6369579685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7151051785",
+        "addr:housenumber": "7",
+        "addr:postcode": "570024",
+        "addr:street": "Narayana Shastri Road",
+        "amenity": "school",
+        "name": "Sadvidya educational institutions"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6506231,
+          12.284174
+        ]
+      },
+      "id": "node/7151051785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10699352306",
+        "addr:housenumber": "77/A,1st Floor",
+        "addr:postcode": "570002",
+        "addr:street": "4th Main Road",
+        "amenity": "school",
+        "name": "Yogadarshanam",
+        "name:en": "Yogadarshanam",
+        "phone": "+919901760846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297404,
+          12.3352042
+        ]
+      },
+      "id": "node/10699352306"
+    }
+  ]
+}

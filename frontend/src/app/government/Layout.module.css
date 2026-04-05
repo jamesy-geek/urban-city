@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+.main {
+  flex: 1;
+  min-height: 100vh;
+  overflow-y: auto;
+  margin-left: 240px;
+  transition: all 0.3s ease;
+  width: calc(100% - 240px);
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-bottom: 80px; /* Space for mobile nav if needed */
+  }
+}

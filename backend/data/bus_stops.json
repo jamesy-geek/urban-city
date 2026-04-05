@@ -1,0 +1,1696 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-04T18:14:00Z",
+    "timestamp_areas_base": "2026-04-04T01:30:11Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 540060714,
+      "lat": 12.3130019,
+      "lon": 76.6681513,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Chamundi Vihar Stadium",
+        "name:kn": "ಚಾಮುಂಡಿ ವಿಹಾರ ಕ್ರೀಡಾಂಗಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 540652234,
+      "lat": 12.3026412,
+      "lon": 76.6435521,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ramaswamy Circle",
+        "name:kn": "ರಾಮಸ್ವಾಮಿ ವೃತ್ತ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 540654034,
+      "lat": 12.299344,
+      "lon": 76.6427067,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "RTO Bus Stop",
+        "name:kn": "ಆರ್ ಟಿ ಒ ಬಸ್ ನಿಲ್ದಾಣ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 540654068,
+      "lat": 12.2990915,
+      "lon": 76.6431865,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "RTO Bus Stop",
+        "name:kn": "ಆರ್ ಟಿ ಒ ಬಸ್ ನಿಲ್ದಾಣ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 540655486,
+      "lat": 12.30468,
+      "lon": 76.6434449,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ramaswamy Circle",
+        "name:kn": "ರಾಮಸ್ವಾಮಿ ವೃತ್ತ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541294432,
+      "lat": 12.2958994,
+      "lon": 76.642162,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ballal Circle Bus Stop",
+        "name:kn": "ಬಲ್ಲಾಳ ವೃತ್ತ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541294915,
+      "lat": 12.2952338,
+      "lon": 76.6418214,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ballal Circle Bus Stop",
+        "name:kn": "ಬಲ್ಲಾಳ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541298684,
+      "lat": 12.2966114,
+      "lon": 76.6345945,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Underbridge Bus_Stop",
+        "name:kn": "ಕೆಳಸೇತುವೆ ಬಸ್ ನಿಲ್ದಾಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541313418,
+      "lat": 12.315065,
+      "lon": 76.645713,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Railway Station",
+        "name:kn": "ರೈಲ್ವೆ ನಿಲ್ದಾಣ",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541313442,
+      "lat": 12.3148893,
+      "lon": 76.6462774,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Railway Station",
+        "name:kn": "ರೈಲ್ವೆ ನಿಲ್ದಾಣ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 541315263,
+      "lat": 12.3123632,
+      "lon": 76.6231682,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "University Bus Stop",
+        "name:kn": "ವಿಶ್ವವಿದ್ಯಾಲಯ ಬಸ್ ನಿಲ್ದಾಣ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 647863239,
+      "lat": 12.3095398,
+      "lon": 76.6603813,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1574256069,
+      "lat": 12.2927125,
+      "lon": 76.6828858,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "J C Nagar bus stop",
+        "name:kn": "ಜೆ ಸಿ ನಗರ ಬಸ್ ನಿಲ್ದಾಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1574263641,
+      "lat": 12.2989722,
+      "lon": 76.6791178,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Jockey Quarters Bus Stop",
+        "name:kn": "ಜಾಕಿ ಕ್ವಾಟರ್ಸ್ ಬಸ್ ನಿಲ್ದಾಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1636811460,
+      "lat": 12.2920439,
+      "lon": 76.6417196,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Krishnamurthypuram Stop",
+        "name:kn": "ಕೃಷ್ಣಮೂರ್ತಿಪುರಂ ಬಸ್ ನಿಲ್ದಾಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1636812936,
+      "lat": 12.2950504,
+      "lon": 76.6421136,
+      "tags": {
+        "direction": "S",
+        "highway": "bus_stop",
+        "name": "Ashoka Circle",
+        "name:kn": "ಅಶೋಕ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1636814761,
+      "lat": 12.2952464,
+      "lon": 76.6429695,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ashoka Circle",
+        "name:kn": "ಅಶೋಕ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1636818342,
+      "lat": 12.2924763,
+      "lon": 76.6380959,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Jayanagar Gate",
+        "name:kn": "ಜಯನಗರ ಗೇಟ್"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1651613714,
+      "lat": 12.2865201,
+      "lon": 76.6258006,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1681413126,
+      "lat": 12.2964854,
+      "lon": 76.6286693,
+      "tags": {
+        "addr:city": "Mysore",
+        "addr:postcode": "570023",
+        "addr:street": "New Kantharaje Urs Road",
+        "highway": "bus_stop",
+        "name": "Akshay Bhandar",
+        "name:kn": "ಅಕ್ಷಯ ಭಂಡಾರ್"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728980945,
+      "lat": 12.3465372,
+      "lon": 76.614776,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Madegaowda Circle",
+        "name:kn": "ಮಾದೇಗೌಡ ಸರ್ಕಲ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728980946,
+      "lat": 12.3488745,
+      "lon": 76.6138951,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "CITB Choultry",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728980947,
+      "lat": 12.3444416,
+      "lon": 76.6145268,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Abhishek Circle",
+        "name:kn": "ಅಭಿಶೇಕ್ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1728980948,
+      "lat": 12.3379906,
+      "lon": 76.616297,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vijayanagara Water Tank",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1799641119,
+      "lat": 12.2991691,
+      "lon": 76.678533,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2028141382,
+      "lat": 12.2956314,
+      "lon": 76.6171841,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Stone Building Stop",
+        "name": "Stone Building"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2028141385,
+      "lat": 12.2955575,
+      "lon": 76.613151,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Sharadadevi Nagar",
+        "name": "Sharadadevi Nagar",
+        "name:kn": "ಶಾರಾದಾದೇವಿ ನಗರ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2028141395,
+      "lat": 12.2957204,
+      "lon": 76.6210268,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "local_ref": "Kavitha Department Stop",
+        "name": "Kavitha Departmental Store Stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041340094,
+      "lat": 12.2855896,
+      "lon": 76.6430439,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Silk Factory"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041879155,
+      "lat": 12.3358891,
+      "lon": 76.6238488,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Aralimara",
+        "name": "Gokulam Aralimara",
+        "name:kn": "ಗೋಕುಲಂ ಅರಳಿಮರ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041879724,
+      "lat": 12.337664,
+      "lon": 76.6236369,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Trinetra Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041885412,
+      "lat": 12.338034,
+      "lon": 76.6115823,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "R.K. Corner"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041886087,
+      "lat": 12.3379973,
+      "lon": 76.6088625,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "K.D. Circle",
+        "name": "K.D. Circle - Krishnadevaraya Circle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041886428,
+      "lat": 12.3386943,
+      "lon": 76.6053703,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hoysala Circle",
+        "name:kn": "ಹೊಯ್ಸಳ ವೃತ್ತ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041888745,
+      "lat": 12.3416263,
+      "lon": 76.6061318,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hampi Circle",
+        "name:kn": "ಹಂಪಿ ವೃತ್ತ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041909406,
+      "lat": 12.3289756,
+      "lon": 76.6302424,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nirmala Convent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2041918034,
+      "lat": 12.3234911,
+      "lon": 76.6302987,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2926205299,
+      "lat": 12.2981383,
+      "lon": 76.6170945,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ganesha Bandara"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3152033473,
+      "lat": 12.3444429,
+      "lon": 76.6058482,
+      "tags": {
+        "addr:full": "Sankranthi Circle Branch, 25th Cross Rd, Hebbal 2nd Stage, Mysuru, Karnataka",
+        "addr:state": "Karnataka",
+        "amenity": "bank",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sankranthi Circle;Karnataka Bank",
+        "name:kn": "ಸಂಕ್ರಾಂತಿ ವೃತ್ತ;ಕರ್ನಾಟಕ ಬ್ಯಾಂಕ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3217567055,
+      "lat": 12.3023208,
+      "lon": 76.621209,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Maruthi Temple",
+        "name:kn": "ಮಾರುತಿ ದೇವಸ್ಥಾನ",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3217567056,
+      "lat": 12.3024833,
+      "lon": 76.6210126,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Maruthi Temple",
+        "name:kn": "ಮಾರುತಿ ದೇವಸ್ಥಾನ",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226047770,
+      "lat": 12.3457683,
+      "lon": 76.6085291,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cauvery Circle",
+        "name:kn": "ಕಾವೇರಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3226053966,
+      "lat": 12.3447856,
+      "lon": 76.6115144,
+      "tags": {
+        "addr:city": "Mysore",
+        "addr:postcode": "570017",
+        "highway": "bus_stop",
+        "name": "Manche Gowdana Koppalu",
+        "name:kn": "ಮಂಚೆಗೌಡನ ಕೊಪ್ಪಲು"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3320366391,
+      "lat": 12.3435111,
+      "lon": 76.6667902,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "R S Naidu Nagar Bus Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3564762407,
+      "lat": 12.3247488,
+      "lon": 76.6249692,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630828601,
+      "lat": 12.2948126,
+      "lon": 76.6482652,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630828602,
+      "lat": 12.2984166,
+      "lon": 76.6478231,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638118711,
+      "lat": 12.3110234,
+      "lon": 76.6441351,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638118712,
+      "lat": 12.311192,
+      "lon": 76.6437768,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638118713,
+      "lat": 12.3106225,
+      "lon": 76.6445226,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120213,
+      "lat": 12.3065076,
+      "lon": 76.6255105,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120214,
+      "lat": 12.3067198,
+      "lon": 76.625481,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120215,
+      "lat": 12.2958279,
+      "lon": 76.625798,
+      "tags": {
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Vijaya Bank",
+        "name:kn": "ವಿಜಯ ಬ್ಯಾಂಕ್",
+        "operator": "KSRTC",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120216,
+      "lat": 12.295917,
+      "lon": 76.6256102,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Vijaya Bank",
+        "name:kn": "ವಿಜಯ ಬ್ಯಾಂಕ್",
+        "operator": "KSRTC",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120218,
+      "lat": 12.296407,
+      "lon": 76.6290562,
+      "tags": {
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Akshay Bhandar",
+        "name:kn": "ಅಕ್ಷಯ ಭಂಡಾರ್",
+        "operator": "KSRTC",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3638120219,
+      "lat": 12.2962763,
+      "lon": 76.6289467,
+      "tags": {
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Akshay Bhandar",
+        "name:kn": "ಅಕ್ಷಯ ಭಂಡಾರ್",
+        "operator": "KSRTC",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3648823871,
+      "lat": 12.3406801,
+      "lon": 76.6670479,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3652508943,
+      "lat": 12.3478399,
+      "lon": 76.6598521,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3862547134,
+      "lat": 12.3352935,
+      "lon": 76.6630786,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Rajendra Nagar",
+        "name:kn": "ರಜೇನ್ದ್ರನಗರ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3916776476,
+      "lat": 12.3125672,
+      "lon": 76.6231976,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "University Bus Stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4009040221,
+      "lat": 12.2981909,
+      "lon": 76.6519968,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Agrahara Circle",
+        "name:kn": "ಅಗ್ರಹಾರ ವೃತ್ತ",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4035082185,
+      "lat": 12.3246416,
+      "lon": 76.6247566,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus Stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4035082186,
+      "lat": 12.3266974,
+      "lon": 76.627169,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus Stand",
+        "name:kn": "ಬಸ್ ನಿಲ್ದಾಣ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4178831301,
+      "lat": 12.3021784,
+      "lon": 76.6336454,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4178858347,
+      "lat": 12.3025623,
+      "lon": 76.6429402,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4216733638,
+      "lat": 12.2978639,
+      "lon": 76.6511598,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4216733645,
+      "lat": 12.2983217,
+      "lon": 76.6466306,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4588665014,
+      "lat": 12.3199979,
+      "lon": 76.6201832,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4605738891,
+      "lat": 12.344495,
+      "lon": 76.6183131,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Surya bakery",
+        "name:en": "Surya bakery",
+        "name:ru": "Сурья бейкери",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4959646622,
+      "lat": 12.3445232,
+      "lon": 76.6060235,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sankranthi Circle",
+        "name:en": "Sankranthi Circle",
+        "name:kn": "ಸಂಕ್ರಾಂತಿ ವೃತ್ತ",
+        "operator": "KSRTC",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844239,
+      "lat": 12.3134255,
+      "lon": 76.6444055,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dasappa Circle",
+        "name:kn": "ದಾಸಪ್ಪ ವೃತ್ತ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844240,
+      "lat": 12.3135706,
+      "lon": 76.6446419,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dasappa Circle",
+        "name:kn": "ದಾಸಪ್ಪ ವೃತ್ತ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844241,
+      "lat": 12.3086121,
+      "lon": 76.6442353,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844242,
+      "lat": 12.3085518,
+      "lon": 76.6440716,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844243,
+      "lat": 12.3219871,
+      "lon": 76.6371006,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Akashavani",
+        "name:kn": "ಆಕಾಶವಾಣಿ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844244,
+      "lat": 12.3184914,
+      "lon": 76.6424455,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vani Vilas Water Works",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844246,
+      "lat": 12.3219609,
+      "lon": 76.6372856,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Akashavani",
+        "name:kn": "ಆಕಾಶವಾಣಿ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844247,
+      "lat": 12.3265177,
+      "lon": 76.6335424,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vonti Koppal Temple",
+        "name:kn": "ಒಂಟಿಕೊಪ್ಪಲು ದೇವಸ್ಥಾನ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080844248,
+      "lat": 12.3383825,
+      "lon": 76.631763,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2023-05-28",
+        "highway": "bus_stop",
+        "name": "ESI Hospital",
+        "name:kn": "ಇಎಸ್ಐ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5890626565,
+      "lat": 12.3372261,
+      "lon": 76.6651867,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kuri Mandi",
+        "name:kn": "ಕುರಿ ಮಂಡಿ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5973066428,
+      "lat": 12.3317473,
+      "lon": 76.6624076,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kesare Arch Circle Bus Stop",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6117496104,
+      "lat": 12.3136273,
+      "lon": 76.6584656,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Flybus Platform 1",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6172456985,
+      "lat": 12.2630792,
+      "lon": 76.6444408,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus stop to Mysore center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6331187585,
+      "lat": 12.3106891,
+      "lon": 76.6577489,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Shiva guru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6369579785,
+      "lat": 12.3327984,
+      "lon": 76.6747879,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "K. M. Zakee Ahmed",
+        "name:hi": "School",
+        "operator": "ZAKEE AHMED"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6994498890,
+      "lat": 12.2950759,
+      "lon": 76.6117636,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8617010717,
+      "lat": 12.3308975,
+      "lon": 76.6285414,
+      "tags": {
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Ganesh Temple - Bus Stop",
+        "name:kn": "ಗಣೇಶ ದೇವಸ್ಥಾನ",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991839282,
+      "lat": 12.2761933,
+      "lon": 76.6233456,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vivekananda Circle",
+        "name:kn": "ವಿವೇಕಾನಂದ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991839283,
+      "lat": 12.2765848,
+      "lon": 76.6232563,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vivekananda Circle",
+        "name:kn": "ವಿವೇಕಾನಂದ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10666311324,
+      "lat": 12.2867345,
+      "lon": 76.6591484,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "JSS College",
+        "name:kn": "ಜೇ.ಎಸ್.ಎಸ್. ಕಾಲೇಜು",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857574,
+      "lat": 12.3501471,
+      "lon": 76.6076201,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ganesh Temple",
+        "name:kn": "ಗಣೇಶ ದೇವಸ್ಥಾನ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857575,
+      "lat": 12.348369,
+      "lon": 76.6057823,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Laxmikantha Nagar",
+        "name:kn": "ಲಕ್ಷ್ಮಿಕಾಂತ ನಗರ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857576,
+      "lat": 12.3464435,
+      "lon": 76.6047672,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kitturu Rani Chennamma Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857577,
+      "lat": 12.346583,
+      "lon": 76.6048701,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kitturu Rani Chennamma Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857578,
+      "lat": 12.3459576,
+      "lon": 76.6083615,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cauvery Circle",
+        "name:kn": "ಕಾವೇರಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857579,
+      "lat": 12.3475239,
+      "lon": 76.6109626,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mayura Circle",
+        "name:kn": "ಮಯೂರ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857581,
+      "lat": 12.3494493,
+      "lon": 76.6186414,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "State Bank of India",
+        "name:kn": "ಭಾರತೀಯ ಸ್ಟೇಟ್ ಬ್ಯಾಂಕ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857582,
+      "lat": 12.3501084,
+      "lon": 76.6207546,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Basavanagudi",
+        "name:kn": "ಬಸವನಗುಡಿ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857583,
+      "lat": 12.3478028,
+      "lon": 76.6266784,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sanjeevini Circle",
+        "name:kn": "ಸಂಜೀವಿನಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857584,
+      "lat": 12.3477318,
+      "lon": 76.6299354,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Metagalli Police Station",
+        "name:kn": "ಮೇಟಗಳ್ಳಿ ಆರಕ್ಷಕ ಠಾಣೆ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857585,
+      "lat": 12.3423807,
+      "lon": 76.6310099,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "PK Sanitorium",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857586,
+      "lat": 12.3187373,
+      "lon": 76.6424972,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vani Vilas Water Works",
+        "name:kn": "ವಾಣಿ ವಿಲಾಸ ನೀರು ಸರಬರಾಜು",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857588,
+      "lat": 12.3145581,
+      "lon": 76.6510672,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "KR Hospital",
+        "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857589,
+      "lat": 12.3144021,
+      "lon": 76.6509075,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "KR Hospital",
+        "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409857591,
+      "lat": 12.3100979,
+      "lon": 76.6559437,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dodda Gadiyara",
+        "name:kn": "ದೊಡ್ಡ ಗಡಿಯಾರ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409887971,
+      "lat": 12.3027554,
+      "lon": 76.6551064,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Palace Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11409887972,
+      "lat": 12.3120575,
+      "lon": 76.6587557,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rural Bus Stand",
+        "name:kn": "ಗ್ರಾಮಂತರ ಬಸ್ ನಿಲ್ದಾಣ",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061748,
+      "lat": 12.3266424,
+      "lon": 76.6333062,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vonti Koppal Temple",
+        "name:kn": "ಒಂಟಿಕೊಪ್ಪಲು ದೇವಸ್ಥಾನ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061750,
+      "lat": 12.3379516,
+      "lon": 76.631659,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2023-05-28",
+        "highway": "bus_stop",
+        "name": "ESI Hospital",
+        "name:kn": "ಇಎಸ್ಐ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061752,
+      "lat": 12.3419319,
+      "lon": 76.6308701,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "PK Sanitorium",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061754,
+      "lat": 12.3474571,
+      "lon": 76.6297906,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Metagalli Police Station",
+        "name:kn": "ಮೇಟಗಳ್ಳಿ ಆರಕ್ಷಕ ಠಾಣೆ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061756,
+      "lat": 12.3476717,
+      "lon": 76.626659,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sanjeevini Circle",
+        "name:kn": "ಸಂಜೀವಿನಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061758,
+      "lat": 12.3499779,
+      "lon": 76.6207622,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Basavanagudi",
+        "name:kn": "ಬಸವನಗುಡಿ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061762,
+      "lat": 12.344535,
+      "lon": 76.6143784,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Abhishek Circle",
+        "name:kn": "ಅಭಿಶೇಕ್ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061764,
+      "lat": 12.3466415,
+      "lon": 76.6146565,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Madegaowda Circle",
+        "name:kn": "ಮಾದೇಗೌಡ ಸರ್ಕಲ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410061767,
+      "lat": 12.3472932,
+      "lon": 76.6110663,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mayura Circle",
+        "name:kn": "ಮಯೂರ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410182672,
+      "lat": 12.3484919,
+      "lon": 76.6058081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Laxmikantha Nagar",
+        "name:kn": "ಲಕ್ಷ್ಮಿಕಾಂತ ನಗರ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11410182674,
+      "lat": 12.3501511,
+      "lon": 76.6074917,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ganesh Temple",
+        "name:kn": "ಗಣೇಶ ದೇವಸ್ಥಾನ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497453444,
+      "lat": 12.3490046,
+      "lon": 76.6138041,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "CITB Choultry",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497453445,
+      "lat": 12.3446022,
+      "lon": 76.6183583,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Surya bakery",
+        "name:en": "Surya bakery",
+        "name:ru": "Сурья бейкери",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497453446,
+      "lat": 12.3496964,
+      "lon": 76.6186412,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "State Bank of India",
+        "name:kn": "ಭಾರತೀಯ ಸ್ಟೇಟ್ ಬ್ಯಾಂಕ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497798547,
+      "lat": 12.3266657,
+      "lon": 76.6325044,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vonti Koppal Temple",
+        "name:kn": "ಒಂಟಿಕೊಪ್ಪಲು ದೇವಸ್ಥಾನ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497798548,
+      "lat": 12.3311919,
+      "lon": 76.6284195,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Adithya Hospital",
+        "name:kn": "ಆದಿತ್ಯ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11497798549,
+      "lat": 12.3419968,
+      "lon": 76.6175574,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Indira Nursing Home",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557876,
+      "lat": 12.3182003,
+      "lon": 76.6597184,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Five Light Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557877,
+      "lat": 12.3200646,
+      "lon": 76.6614745,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Masjid",
+        "name:kn": "ಮಸ್ಜಿದ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557878,
+      "lat": 12.320218,
+      "lon": 76.6615744,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Masjid",
+        "name:kn": "ಮಸ್ಜಿದ್",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557917,
+      "lat": 12.3257877,
+      "lon": 76.6582144,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fountain Circle",
+        "name:kn": "ಕಾರಂಜಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557918,
+      "lat": 12.3259987,
+      "lon": 76.6583786,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fountain Circle",
+        "name:kn": "ಕಾರಂಜಿ ವೃತ್ತ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557963,
+      "lat": 12.3335717,
+      "lon": 76.6561302,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "L I C Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557964,
+      "lat": 12.3336024,
+      "lon": 76.6562976,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "L I C Circle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557965,
+      "lat": 12.3409142,
+      "lon": 76.6546782,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "St Joseph Hospital",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557966,
+      "lat": 12.3443311,
+      "lon": 76.6539928,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "JSS Medical College",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557967,
+      "lat": 12.3474148,
+      "lon": 76.659017,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siddique Mohalla",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557968,
+      "lat": 12.3471678,
+      "lon": 76.6588377,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siddique Mohalla",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11499557969,
+      "lat": 12.3500467,
+      "lon": 76.6606548,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Columbia Asia Hospital",
+        "name:kn": "ಕೊಲಂಬಿಯ ಏಷ್ಯಾ ಆಸ್ಪತ್ರೆ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12754786294,
+      "lat": 12.3120199,
+      "lon": 76.6579851,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alighting Platform"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13426378798,
+      "lat": 12.3147967,
+      "lon": 76.6593154,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Private bus stop",
+        "name:en": "Private bus stop",
+        "name:kn": "Private bus stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    }
+  ]
+}

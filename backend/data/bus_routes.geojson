@@ -1,0 +1,2516 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-04T18:03:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16811446",
+        "from": "City Bus Stand",
+        "name": "116: CBS => LnT",
+        "network": "KSRTC",
+        "network:wikidata": "Q3139469",
+        "operator": "KSRTC",
+        "public_transport:version": "2",
+        "ref": "116",
+        "route": "bus",
+        "to": "LnT",
+        "type": "route",
+        "via": "Railway Station;ESI Hospital;Basavanagudi"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6532435,
+            12.3080099
+          ],
+          [
+            76.6533129,
+            12.3080201
+          ],
+          [
+            76.6533852,
+            12.3080398
+          ]
+        ]
+      },
+      "id": "relation/16811446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16991412",
+        "from": "LnT",
+        "name": "116: LnT => CBS",
+        "network": "KSRTC",
+        "network:wikidata": "Q3139469",
+        "operator": "KSRTC",
+        "public_transport:version": "2",
+        "ref": "116",
+        "route": "bus",
+        "to": "City Bus Stand",
+        "type": "route",
+        "via": "Basavanagudi;ESI Hospital;Railway Station"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6532435,
+            12.3080099
+          ],
+          [
+            76.6533129,
+            12.3080201
+          ],
+          [
+            76.6533852,
+            12.3080398
+          ]
+        ]
+      },
+      "id": "relation/16991412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16997772",
+        "from": "City Bus Stand",
+        "name": "119: CBS => LnT",
+        "network": "KSRTC",
+        "network:wikidata": "Q3139469",
+        "operator": "KSRTC",
+        "public_transport:version": "2",
+        "ref": "119",
+        "route": "bus",
+        "to": "LnT",
+        "type": "route",
+        "via": "Railway Station;Adithya Hospital"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.6534198,
+            12.3080509
+          ],
+          [
+            76.6534773,
+            12.3080734
+          ],
+          [
+            76.6535348,
+            12.3081071
+          ]
+        ]
+      },
+      "id": "relation/16997772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/541313418",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.645713,
+          12.315065
+        ]
+      },
+      "id": "node/541313418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/541313442",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6462774,
+          12.3148893
+        ]
+      },
+      "id": "node/541313442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728980945",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.614776,
+          12.3465372
+        ]
+      },
+      "id": "node/1728980945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728980946",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6138951,
+          12.3488745
+        ]
+      },
+      "id": "node/1728980946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728980947",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6145268,
+          12.3444416
+        ]
+      },
+      "id": "node/1728980947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728980948",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.616297,
+          12.3379906
+        ]
+      },
+      "id": "node/1728980948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2041879155",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6238488,
+          12.3358891
+        ]
+      },
+      "id": "node/2041879155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2041879724",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6236369,
+          12.337664
+        ]
+      },
+      "id": "node/2041879724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2041909406",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6302424,
+          12.3289756
+        ]
+      },
+      "id": "node/2041909406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2401150365",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6001331,
+          12.357734
+        ]
+      },
+      "id": "node/2401150365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152033473",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6058482,
+          12.3444429
+        ]
+      },
+      "id": "node/3152033473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226047770",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6085291,
+          12.3457683
+        ]
+      },
+      "id": "node/3226047770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844243",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6371006,
+          12.3219871
+        ]
+      },
+      "id": "node/5080844243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844246",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6372856,
+          12.3219609
+        ]
+      },
+      "id": "node/5080844246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844239",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6444055,
+          12.3134255
+        ]
+      },
+      "id": "node/5080844239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844240",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6446419,
+          12.3135706
+        ]
+      },
+      "id": "node/5080844240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844244",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6424455,
+          12.3184914
+        ]
+      },
+      "id": "node/5080844244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857586",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6424972,
+          12.3187373
+        ]
+      },
+      "id": "node/11409857586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844247",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6335424,
+          12.3265177
+        ]
+      },
+      "id": "node/5080844247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061748",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6333062,
+          12.3266424
+        ]
+      },
+      "id": "node/11410061748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497798547",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6325044,
+          12.3266657
+        ]
+      },
+      "id": "node/11497798547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497798548",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6284195,
+          12.3311919
+        ]
+      },
+      "id": "node/11497798548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857572",
+        "@relations": [
+          {
+            "role": "platform_exit_only",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform_exit_only",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.59171,
+          12.3573529
+        ]
+      },
+      "id": "node/11409857572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497453440",
+        "@relations": [
+          {
+            "role": "platform_entry_only",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.590881,
+          12.3574524
+        ]
+      },
+      "id": "node/11497453440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857576",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6047672,
+          12.3464435
+        ]
+      },
+      "id": "node/11409857576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857577",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6048701,
+          12.346583
+        ]
+      },
+      "id": "node/11409857577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4959646622",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6060235,
+          12.3445232
+        ]
+      },
+      "id": "node/4959646622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857574",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6076201,
+          12.3501471
+        ]
+      },
+      "id": "node/11409857574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857575",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6057823,
+          12.348369
+        ]
+      },
+      "id": "node/11409857575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857578",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6083615,
+          12.3459576
+        ]
+      },
+      "id": "node/11409857578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857579",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6109626,
+          12.3475239
+        ]
+      },
+      "id": "node/11409857579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061767",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6110663,
+          12.3472932
+        ]
+      },
+      "id": "node/11410061767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410182672",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6058081,
+          12.3484919
+        ]
+      },
+      "id": "node/11410182672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410182674",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6074917,
+          12.3501511
+        ]
+      },
+      "id": "node/11410182674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497798549",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6175574,
+          12.3419968
+        ]
+      },
+      "id": "node/11497798549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061762",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6143784,
+          12.344535
+        ]
+      },
+      "id": "node/11410061762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061764",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6146565,
+          12.3466415
+        ]
+      },
+      "id": "node/11410061764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497453444",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6138041,
+          12.3490046
+        ]
+      },
+      "id": "node/11497453444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4605738891",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6183131,
+          12.344495
+        ]
+      },
+      "id": "node/4605738891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857581",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6186414,
+          12.3494493
+        ]
+      },
+      "id": "node/11409857581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857582",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6207546,
+          12.3501084
+        ]
+      },
+      "id": "node/11409857582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061758",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6207622,
+          12.3499779
+        ]
+      },
+      "id": "node/11410061758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497453445",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6183583,
+          12.3446022
+        ]
+      },
+      "id": "node/11497453445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497453446",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6186412,
+          12.3496964
+        ]
+      },
+      "id": "node/11497453446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409421877",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6069827,
+          12.3534934
+        ]
+      },
+      "id": "node/11409421877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409421878",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6071882,
+          12.3536398
+        ]
+      },
+      "id": "node/11409421878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409404736",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6016846,
+          12.3578839
+        ]
+      },
+      "id": "node/11409404736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857573",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.603503,
+          12.3573233
+        ]
+      },
+      "id": "node/11409857573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410182677",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6031362,
+          12.3576764
+        ]
+      },
+      "id": "node/11410182677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857585",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6310099,
+          12.3423807
+        ]
+      },
+      "id": "node/11409857585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061752",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6308701,
+          12.3419319
+        ]
+      },
+      "id": "node/11410061752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080844248",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.631763,
+          12.3383825
+        ]
+      },
+      "id": "node/5080844248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061750",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.631659,
+          12.3379516
+        ]
+      },
+      "id": "node/11410061750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857583",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6266784,
+          12.3478028
+        ]
+      },
+      "id": "node/11409857583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857584",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6299354,
+          12.3477318
+        ]
+      },
+      "id": "node/11409857584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061754",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6297906,
+          12.3474571
+        ]
+      },
+      "id": "node/11410061754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11410061756",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.626659,
+          12.3476717
+        ]
+      },
+      "id": "node/11410061756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409887971",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6551064,
+          12.3027554
+        ]
+      },
+      "id": "node/11409887971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857591",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6559437,
+          12.3100979
+        ]
+      },
+      "id": "node/11409857591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857588",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16991412,
+            "reltags": {
+              "from": "LnT",
+              "name": "116: LnT => CBS",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "City Bus Stand",
+              "type": "route",
+              "via": "Basavanagudi;ESI Hospital;Railway Station"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6510672,
+          12.3145581
+        ]
+      },
+      "id": "node/11409857588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409857589",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6509075,
+          12.3144021
+        ]
+      },
+      "id": "node/11409857589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11409887972",
+        "@relations": [
+          {
+            "role": "platform",
+            "rel": 16811446,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "116: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "116",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;ESI Hospital;Basavanagudi"
+            }
+          },
+          {
+            "role": "platform",
+            "rel": 16997772,
+            "reltags": {
+              "from": "City Bus Stand",
+              "name": "119: CBS => LnT",
+              "network": "KSRTC",
+              "network:wikidata": "Q3139469",
+              "operator": "KSRTC",
+              "public_transport:version": "2",
+              "ref": "119",
+              "route": "bus",
+              "to": "LnT",
+              "type": "route",
+              "via": "Railway Station;Adithya Hospital"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6587557,
+          12.3120575
+        ]
+      },
+      "id": "node/11409887972"
+    }
+  ]
+}
