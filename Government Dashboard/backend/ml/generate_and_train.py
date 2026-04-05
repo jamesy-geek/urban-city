@@ -117,6 +117,7 @@ X = pd.DataFrame({
     'days_collection_missed': days_collection_missed,
     'hospital_distance_km': hospital_distance_km,
     'alternate_routes_available': alternate_routes_available,
+    'base_congestion': base_congestion,
 })
 
 # ============================================================
@@ -126,88 +127,84 @@ X = pd.DataFrame({
 
 # 1. TRAFFIC CONGESTION CHANGE (%) — 0 to 80%
 congestion = np.clip(
-    roads_affected * 1.5 +
-    total_length_km * 2.5 +
-    rainfall_mm * 0.12 +
-    np.maximum(0, crowd_count_lakhs - 9.0) * 8 +
-    base_congestion * 18 +
-    tourism_load * 8 +
-    np.where((time_of_day >= 8) & (time_of_day <= 10), 10, 0) +   # morning peak
-    np.where((time_of_day >= 17) & (time_of_day <= 19), 12, 0) +  # evening peak
-    np.where(day_of_week < 5, 3, -2) +                            # weekday penalty
-    is_dasara * 5 +    # Reduced to avoid blowing up at 9-10 Lakhs natively
-    garbage_zones_missed * 0.5 +  # garbage trucks add to traffic
-    np.random.normal(0, 2.5, N),
+    roads_affected * 0.8 +
+    total_length_km * 1.5 +
+    rainfall_mm * 0.08 +
+    np.maximum(0, crowd_count_lakhs - 2.0) * 4 +
+    base_congestion * 4 +
+    tourism_load * 3 +    
+    np.where((time_of_day >= 8) & (time_of_day <= 10), 5, 0) +   # morning peak
+    np.where((time_of_day >= 17) & (time_of_day <= 19), 7, 0) +  # evening peak
+    np.where(day_of_week < 5, 2, -1) +                            # weekday penalty
+    is_dasara * 4 +    
+    garbage_zones_missed * 0.3 +  
+    np.random.normal(0, 1.5, N),
     0, 80
 )
 
 # 2. AVERAGE TRAVEL DELAY (minutes) — 0 to 60 min
 avg_delay = np.clip(
-    congestion * 0.45 +
-    total_length_km * 1.8 +
-    bus_routes_disrupted * 1.2 +
-    crowd_count_lakhs * 2 +
-    np.where(alternate_routes_available == 0, 8, 0) +
-    np.random.normal(0, 1.5, N),
+    congestion * 0.35 +
+    total_length_km * 1.2 +
+    bus_routes_disrupted * 0.6 +
+    crowd_count_lakhs * 1.2 +
+    np.where(alternate_routes_available == 0, 5, 0) +
+    np.random.normal(0, 1.0, N),
     0, 60
 )
 
 # 3. AMBULANCE DELAY (minutes) — 0 to 25 min
-# Most sensitive metric — calibrated on KR Hospital response times
 ambulance_delay = np.clip(
-    congestion * 0.18 +
-    near_hospital * 0.6 +
-    roads_affected * 0.4 +
-    hospital_distance_km * 1.5 +
-    np.where(alternate_routes_available == 0, 5, 0) +
-    np.where(scenario_type == 7, roads_affected * 0.8, 0) +  # ambulance scenario penalty
-    is_dasara * 4 +
-    np.random.normal(0, 0.6, N),
+    congestion * 0.12 +
+    near_hospital * 0.4 +
+    roads_affected * 0.2 +
+    hospital_distance_km * 1.2 +
+    np.where(alternate_routes_available == 0, 3, 0) +
+    np.where(scenario_type == 7, roads_affected * 0.5, 0) +
+    is_dasara * 3 +
+    np.random.normal(0, 0.4, N),
     0, 25
 )
 
 # 4. POLLUTION INDEX CHANGE (AQI delta) — -5 to +40
 pollution = np.clip(
-    congestion * 0.35 +
-    crowd_count_lakhs * 3 +
-    garbage_zones_missed * 2.5 +  # uncollected garbage raises AQI
-    days_collection_missed * 1.8 +
-    np.where(is_monsoon == 1, -3, 2) +  # rain washes pollutants
-    np.random.normal(0, 1.5, N),
+    congestion * 0.25 +
+    crowd_count_lakhs * 1.5 +
+    garbage_zones_missed * 1.5 +  
+    days_collection_missed * 1.0 +
+    np.where(is_monsoon == 1, -2, 1) +  
+    np.random.normal(0, 1.0, N),
     -5, 40
 )
 
 # 5. FLOOD RISK SCORE (0-10)
-# Calibrated for Mysuru architecture: severely lowers risk
 flood_risk = np.clip(
-    rainfall_mm * 0.01 +
-    np.where(scenario_type == 1, 1.5, 0) +
-    (1 - drain_condition) * 1.5 +
+    rainfall_mm * 0.008 +
+    np.where(scenario_type == 1, 1.2, 0) +
+    (1 - drain_condition) * 1.2 +
     np.random.normal(0, 0.2, N),
-    0, 3  # Capped at 3 to reflect lack of historical severe floods
+    0, 3
 )
 
-# 6. PUBLIC HEALTH RISK (0-10) — NEW metric
-# Combines garbage, flooding, hospital access
+# 6. PUBLIC HEALTH RISK (0-10)
 public_health_risk = np.clip(
-    garbage_zones_missed * 0.8 +
-    days_collection_missed * 0.5 +
-    flood_risk * 0.4 +
-    np.where(near_hospital == 0, 2, 0) +  # no hospital access penalty
-    rainfall_mm * 0.02 +
-    np.random.normal(0, 0.5, N),
+    garbage_zones_missed * 0.6 +
+    days_collection_missed * 0.3 +
+    flood_risk * 0.3 +
+    np.where(near_hospital == 0, 1.5, 0) +
+    rainfall_mm * 0.01 +
+    np.random.normal(0, 0.4, N),
     0, 10
 )
 
-# 7. KSRTC SERVICE DISRUPTION SCORE (0-10) — NEW metric
-# How badly public transport is impacted
+# 7. KSRTC SERVICE DISRUPTION SCORE (0-10)
 ksrtc_disruption = np.clip(
-    bus_routes_disrupted * 0.5 +
-    bus_stops_affected * 0.3 +
-    np.where(scenario_type == 3, bus_routes_disrupted * 0.8, 0) +
-    crowd_count_lakhs * 1.5 +
-    congestion * 0.05 +
-    np.random.normal(0, 0.4, N),
+    bus_routes_disrupted * 0.3 +
+    bus_stops_affected * 0.15 +
+    np.where(scenario_type == 3, bus_routes_disrupted * 0.5, 0) +
+    crowd_count_lakhs * 0.8 +
+    congestion * 0.03 +
+    np.random.normal(0, 0.3, N),
     0, 10
 )
 

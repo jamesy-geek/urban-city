@@ -46,7 +46,7 @@ export default function SimulationPage() {
   const [params, setParams] = useState({
     duration: 24,
     rainfall: 80,
-    crowd: 750000,
+    crowd: 50000,
     bus_routes: 5,
     drain_condition: 0.8,
     is_monsoon: 0,
@@ -84,17 +84,17 @@ export default function SimulationPage() {
       console.error("Simulation failed", e);
       setResults({
         results: {
-          congestion_pct: 35.4,
-          avg_delay_min: 12.2,
-          ambulance_delay_min: 5.1,
-          pollution_delta: 8.4,
-          flood_risk_score: 4.2,
-          public_health_risk: 1.5,
-          ksrtc_disruption_score: 2.1,
-          waste_impact_score: 0.8,
-          crowd_safety_risk: 1.2
+          congestion_pct: 12.2,
+          avg_delay_min: 4.5,
+          ambulance_delay_min: 2.1,
+          pollution_delta: 3.4,
+          flood_risk_score: 1.2,
+          public_health_risk: 0.5,
+          ksrtc_disruption_score: 1.1,
+          waste_impact_score: 0.2,
+          crowd_safety_risk: 0.2
         },
-        alternative_routes: [{ name: 'Route A: Sayyaji Rao Rd', via: 'Sayyaji Rao Rd', delay_reduction_pct: 62 }]
+        alternative_routes: [{ name: 'Route A: Sayyaji Rao Rd', via: 'Sayyaji Rao Rd', delay_reduction_pct: 12 }]
       });
     }
     setIsSimulating(false);

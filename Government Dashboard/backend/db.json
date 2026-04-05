@@ -1273,6 +1273,5855 @@
         }
       ],
       "timestamp": "2026-04-05T11:00:49.312057"
+    },
+    {
+      "id": "sim_45",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 33.3,
+        "avg_delay_min": 30.8,
+        "ambulance_delay_min": 13.7,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.0,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:37.347509"
+    },
+    {
+      "id": "sim_46",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 33.3,
+        "avg_delay_min": 30.8,
+        "ambulance_delay_min": 13.7,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.0,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:37.358374"
+    },
+    {
+      "id": "sim_47",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.25,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 34.5,
+        "avg_delay_min": 30.8,
+        "ambulance_delay_min": 13.7,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.0,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:39.815024"
+    },
+    {
+      "id": "sim_48",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.3,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 35.3,
+        "avg_delay_min": 30.8,
+        "ambulance_delay_min": 13.7,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:39.863155"
+    },
+    {
+      "id": "sim_49",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.35,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 35.9,
+        "avg_delay_min": 30.8,
+        "ambulance_delay_min": 13.9,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:40.147572"
+    },
+    {
+      "id": "sim_50",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.4,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 36.6,
+        "avg_delay_min": 31.0,
+        "ambulance_delay_min": 13.9,
+        "pollution_delta": 34.6,
+        "flood_risk_score": 0.6,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:40.173722"
+    },
+    {
+      "id": "sim_51",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.45,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 36.6,
+        "avg_delay_min": 31.0,
+        "ambulance_delay_min": 14.1,
+        "pollution_delta": 34.5,
+        "flood_risk_score": 0.6,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:40.202298"
+    },
+    {
+      "id": "sim_52",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.1,
+        "ambulance_delay_min": 14.1,
+        "pollution_delta": 34.6,
+        "flood_risk_score": 0.6,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.5,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:42.009815"
+    },
+    {
+      "id": "sim_53",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 8.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.032668"
+    },
+    {
+      "id": "sim_54",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 8.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.042157"
+    },
+    {
+      "id": "sim_55",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.074185"
+    },
+    {
+      "id": "sim_56",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 9.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.094732"
+    },
+    {
+      "id": "sim_57",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 10.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.106948"
+    },
+    {
+      "id": "sim_58",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 10.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.124669"
+    },
+    {
+      "id": "sim_59",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 11.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.135855"
+    },
+    {
+      "id": "sim_60",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 11.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.149169"
+    },
+    {
+      "id": "sim_61",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 12.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.162987"
+    },
+    {
+      "id": "sim_62",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 12.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.177240"
+    },
+    {
+      "id": "sim_63",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 13.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.191871"
+    },
+    {
+      "id": "sim_64",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 14.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.201810"
+    },
+    {
+      "id": "sim_65",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 14.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.214156"
+    },
+    {
+      "id": "sim_66",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 15.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.223612"
+    },
+    {
+      "id": "sim_67",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 15.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.233645"
+    },
+    {
+      "id": "sim_68",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 16.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.258194"
+    },
+    {
+      "id": "sim_69",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 16.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.291733"
+    },
+    {
+      "id": "sim_70",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 17.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.316298"
+    },
+    {
+      "id": "sim_71",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 16.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:44.851927"
+    },
+    {
+      "id": "sim_72",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 16.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:46.148566"
+    },
+    {
+      "id": "sim_73",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 15.5,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:46.705428"
+    },
+    {
+      "id": "sim_74",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": null,
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 15.0,
+        "duration_hours": 4,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 1,
+        "tourism_load": 0.5,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.3,
+        "avg_delay_min": 31.9,
+        "ambulance_delay_min": 14.0,
+        "pollution_delta": 34.8,
+        "flood_risk_score": 0.5,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.6,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 3.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:14:47.950207"
+    },
+    {
+      "id": "sim_75",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 37.7,
+        "avg_delay_min": 36.6,
+        "ambulance_delay_min": 14.3,
+        "pollution_delta": 35.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 7.3,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:32:35.856860"
+    },
+    {
+      "id": "sim_76",
+      "payload": {
+        "name": null,
+        "scenario_type": "vehicle_restriction",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 32.5,
+        "avg_delay_min": 31.1,
+        "ambulance_delay_min": 13.3,
+        "pollution_delta": 34.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.2,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:32:50.022943"
+    },
+    {
+      "id": "sim_77",
+      "payload": {
+        "name": null,
+        "scenario_type": "vehicle_restriction",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.0,
+        "duration_hours": 168.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 31.8,
+        "avg_delay_min": 31.3,
+        "ambulance_delay_min": 13.8,
+        "pollution_delta": 34.5,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.6,
+        "ksrtc_disruption_score": 9.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:34:55.931887"
+    },
+    {
+      "id": "sim_78",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0
+      },
+      "results": {
+        "congestion_pct": 31.9,
+        "avg_delay_min": 31.1,
+        "ambulance_delay_min": 13.3,
+        "pollution_delta": 34.1,
+        "flood_risk_score": 0.7,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.1,
+        "waste_impact_score": 2.1,
+        "crowd_safety_risk": 3.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:37:33.783031"
+    },
+    {
+      "id": "sim_79",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:32.882859"
+    },
+    {
+      "id": "sim_80",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:36.502713"
+    },
+    {
+      "id": "sim_81",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 30.0,
+        "bus_routes_disrupted": 30,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 54.4,
+        "avg_delay_min": 45.4,
+        "ambulance_delay_min": 22.0,
+        "pollution_delta": 36.2,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.3,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:38.722927"
+    },
+    {
+      "id": "sim_82",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:41.203462"
+    },
+    {
+      "id": "sim_83",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:41.824164"
+    },
+    {
+      "id": "sim_84",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:44.679089"
+    },
+    {
+      "id": "sim_85",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 22.0,
+        "avg_delay_min": 26.5,
+        "ambulance_delay_min": 11.2,
+        "pollution_delta": 32.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.7,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:42:47.519800"
+    },
+    {
+      "id": "sim_86",
+      "payload": {
+        "name": null,
+        "scenario_type": "road_closure",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 31.7,
+        "avg_delay_min": 32.7,
+        "ambulance_delay_min": 13.1,
+        "pollution_delta": 32.4,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 7.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:11.823559"
+    },
+    {
+      "id": "sim_87",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:17.553331"
+    },
+    {
+      "id": "sim_88",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 14.0,
+        "bus_routes_disrupted": 14,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 50.6,
+        "avg_delay_min": 47.2,
+        "ambulance_delay_min": 19.4,
+        "pollution_delta": 34.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:23.014416"
+    },
+    {
+      "id": "sim_89",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 8,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 46.3,
+        "avg_delay_min": 38.9,
+        "ambulance_delay_min": 16.8,
+        "pollution_delta": 33.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:26.533956"
+    },
+    {
+      "id": "sim_90",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 8,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 46.3,
+        "avg_delay_min": 38.9,
+        "ambulance_delay_min": 16.8,
+        "pollution_delta": 33.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:27.185285"
+    },
+    {
+      "id": "sim_91",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 8,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 46.3,
+        "avg_delay_min": 38.9,
+        "ambulance_delay_min": 16.8,
+        "pollution_delta": 33.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:27.698305"
+    },
+    {
+      "id": "sim_92",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 8,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 46.3,
+        "avg_delay_min": 38.9,
+        "ambulance_delay_min": 16.8,
+        "pollution_delta": 33.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:27.853504"
+    },
+    {
+      "id": "sim_93",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 8,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 46.3,
+        "avg_delay_min": 38.9,
+        "ambulance_delay_min": 16.8,
+        "pollution_delta": 33.9,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.4,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 1.8,
+        "crowd_safety_risk": 3.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:28.071078"
+    },
+    {
+      "id": "sim_94",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:30.328133"
+    },
+    {
+      "id": "sim_95",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:30.872990"
+    },
+    {
+      "id": "sim_96",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.033877"
+    },
+    {
+      "id": "sim_97",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.185267"
+    },
+    {
+      "id": "sim_98",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.333302"
+    },
+    {
+      "id": "sim_99",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.483713"
+    },
+    {
+      "id": "sim_100",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.631135"
+    },
+    {
+      "id": "sim_101",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.767387"
+    },
+    {
+      "id": "sim_102",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:31.912450"
+    },
+    {
+      "id": "sim_103",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:32.052912"
+    },
+    {
+      "id": "sim_104",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:32.198942"
+    },
+    {
+      "id": "sim_105",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 7.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 30.3,
+        "avg_delay_min": 26.9,
+        "ambulance_delay_min": 11.6,
+        "pollution_delta": 33.2,
+        "flood_risk_score": 2.4,
+        "public_health_risk": 2.5,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:44:32.425355"
+    },
+    {
+      "id": "sim_106",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 8.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 23.6,
+        "avg_delay_min": 27.1,
+        "ambulance_delay_min": 12.2,
+        "pollution_delta": 32.7,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.1,
+        "waste_impact_score": 1.5,
+        "crowd_safety_risk": 2.8
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:45:25.962084"
+    },
+    {
+      "id": "sim_107",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 35.6,
+        "avg_delay_min": 24.7,
+        "ambulance_delay_min": 10.6,
+        "pollution_delta": 22.3,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:46:49.443589"
+    },
+    {
+      "id": "sim_108",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 11.0,
+        "bus_routes_disrupted": 11,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 42.7,
+        "avg_delay_min": 31.3,
+        "ambulance_delay_min": 13.4,
+        "pollution_delta": 23.6,
+        "flood_risk_score": 0.1,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 3.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:46:54.495202"
+    },
+    {
+      "id": "sim_109",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 30.0,
+        "bus_routes_disrupted": 30,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 51.0,
+        "avg_delay_min": 35.2,
+        "ambulance_delay_min": 18.6,
+        "pollution_delta": 27.3,
+        "flood_risk_score": 0.1,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 3.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:46:57.091642"
+    },
+    {
+      "id": "sim_110",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 27.0,
+        "bus_routes_disrupted": 27,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 50.8,
+        "avg_delay_min": 34.8,
+        "ambulance_delay_min": 18.3,
+        "pollution_delta": 27.0,
+        "flood_risk_score": 0.1,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 3.6
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:46:59.484779"
+    },
+    {
+      "id": "sim_111",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 14.0,
+        "bus_routes_disrupted": 14,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 43.8,
+        "avg_delay_min": 32.5,
+        "ambulance_delay_min": 13.9,
+        "pollution_delta": 23.8,
+        "flood_risk_score": 0.1,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 3.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:47:00.731213"
+    },
+    {
+      "id": "sim_112",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 35.6,
+        "avg_delay_min": 24.7,
+        "ambulance_delay_min": 10.6,
+        "pollution_delta": 22.3,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.6,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:47:02.646011"
+    },
+    {
+      "id": "sim_113",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 30.0,
+        "bus_routes_disrupted": 30,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 51.0,
+        "avg_delay_min": 35.2,
+        "ambulance_delay_min": 18.6,
+        "pollution_delta": 27.3,
+        "flood_risk_score": 0.1,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.1,
+        "waste_impact_score": 1.9,
+        "crowd_safety_risk": 3.7
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:47:04.742571"
+    },
+    {
+      "id": "sim_114",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 30,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 35.1,
+        "avg_delay_min": 31.5,
+        "ambulance_delay_min": 10.7,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.3,
+        "waste_impact_score": 2.2,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:47:19.230925"
+    },
+    {
+      "id": "sim_115",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 13.0,
+        "bus_routes_disrupted": 13,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 42.3,
+        "avg_delay_min": 30.9,
+        "ambulance_delay_min": 13.5,
+        "pollution_delta": 20.9,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 2.4,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:47:26.997031"
+    },
+    {
+      "id": "sim_116",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 13.0,
+        "bus_routes_disrupted": 13,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 42.3,
+        "avg_delay_min": 30.9,
+        "ambulance_delay_min": 13.5,
+        "pollution_delta": 20.9,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 2.4,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:20.009234"
+    },
+    {
+      "id": "sim_117",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 13.0,
+        "bus_routes_disrupted": 13,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 42.3,
+        "avg_delay_min": 30.9,
+        "ambulance_delay_min": 13.5,
+        "pollution_delta": 20.9,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 2.4,
+        "crowd_safety_risk": 2.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:20.506707"
+    },
+    {
+      "id": "sim_118",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 5.0,
+        "bus_routes_disrupted": 5,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 38.2,
+        "avg_delay_min": 26.1,
+        "ambulance_delay_min": 11.4,
+        "pollution_delta": 19.9,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 9.0,
+        "waste_impact_score": 2.3,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:22.457885"
+    },
+    {
+      "id": "sim_119",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 34.9,
+        "avg_delay_min": 23.3,
+        "ambulance_delay_min": 10.3,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.5,
+        "waste_impact_score": 2.5,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:24.591177"
+    },
+    {
+      "id": "sim_120",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 34.9,
+        "avg_delay_min": 23.3,
+        "ambulance_delay_min": 10.3,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.5,
+        "waste_impact_score": 2.5,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:26.686152"
+    },
+    {
+      "id": "sim_121",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 15.0,
+        "bus_routes_disrupted": 15,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 43.0,
+        "avg_delay_min": 31.1,
+        "ambulance_delay_min": 14.1,
+        "pollution_delta": 21.0,
+        "flood_risk_score": 0.2,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 10.0,
+        "waste_impact_score": 2.4,
+        "crowd_safety_risk": 3.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:29.023549"
+    },
+    {
+      "id": "sim_122",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 34.9,
+        "avg_delay_min": 23.3,
+        "ambulance_delay_min": 10.3,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.5,
+        "waste_impact_score": 2.5,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:31.263510"
+    },
+    {
+      "id": "sim_123",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 34.9,
+        "avg_delay_min": 23.3,
+        "ambulance_delay_min": 10.3,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.5,
+        "waste_impact_score": 2.5,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:32.748970"
+    },
+    {
+      "id": "sim_124",
+      "payload": {
+        "name": null,
+        "scenario_type": "flood",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0.0,
+        "crowd_count_lakhs": 6.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 35.0,
+        "avg_delay_min": 23.9,
+        "ambulance_delay_min": 10.6,
+        "pollution_delta": 18.8,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 0.2,
+        "ksrtc_disruption_score": 7.0,
+        "waste_impact_score": 2.4,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:48:44.072382"
+    },
+    {
+      "id": "sim_125",
+      "payload": {
+        "name": null,
+        "scenario_type": "garbage",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 1,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.9,
+        "avg_delay_min": 6.3,
+        "ambulance_delay_min": 8.0,
+        "pollution_delta": 8.9,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.9,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 9.0,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:49:27.620569"
+    },
+    {
+      "id": "sim_126",
+      "payload": {
+        "name": null,
+        "scenario_type": "garbage",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 1,
+        "days_collection_missed": 1,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.6,
+        "avg_delay_min": 6.2,
+        "ambulance_delay_min": 8.0,
+        "pollution_delta": 3.1,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 7.8,
+        "crowd_safety_risk": 1.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:49:30.826082"
+    },
+    {
+      "id": "sim_127",
+      "payload": {
+        "name": null,
+        "scenario_type": "garbage",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3134,
+        "zone_lng": 76.6499,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 1,
+        "days_collection_missed": 14,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 9.5,
+        "avg_delay_min": 6.3,
+        "ambulance_delay_min": 8.0,
+        "pollution_delta": 12.9,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 4.5,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 9.0,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:49:48.819644"
+    },
+    {
+      "id": "sim_128",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 1,
+        "alternate_routes_available": 3,
+        "hospital_distance_km": 2.8,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.0,
+        "avg_delay_min": 6.1,
+        "ambulance_delay_min": 6.4,
+        "pollution_delta": 1.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 0.5,
+        "ksrtc_disruption_score": 0.6,
+        "waste_impact_score": 5.6,
+        "crowd_safety_risk": 0.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:49:56.070789"
+    },
+    {
+      "id": "sim_129",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.9,
+        "avg_delay_min": 6.3,
+        "ambulance_delay_min": 9.0,
+        "pollution_delta": 7.5,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:01.950602"
+    },
+    {
+      "id": "sim_130",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 8.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 8.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 13.8,
+        "avg_delay_min": 12.4,
+        "ambulance_delay_min": 19.3,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.1,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:06.208140"
+    },
+    {
+      "id": "sim_131",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 3,
+        "hospital_distance_km": 2.8,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.3,
+        "avg_delay_min": 6.1,
+        "ambulance_delay_min": 6.4,
+        "pollution_delta": 7.5,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.6,
+        "waste_impact_score": 6.3,
+        "crowd_safety_risk": 0.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:09.703929"
+    },
+    {
+      "id": "sim_132",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 3,
+        "hospital_distance_km": 2.8,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.3,
+        "avg_delay_min": 6.1,
+        "ambulance_delay_min": 6.4,
+        "pollution_delta": 7.5,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.6,
+        "waste_impact_score": 6.3,
+        "crowd_safety_risk": 0.4
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:12.175796"
+    },
+    {
+      "id": "sim_133",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.9,
+        "avg_delay_min": 6.3,
+        "ambulance_delay_min": 9.0,
+        "pollution_delta": 7.5,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:13.940423"
+    },
+    {
+      "id": "sim_134",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 6.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 6.800000000000001,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 11.4,
+        "avg_delay_min": 12.1,
+        "ambulance_delay_min": 17.6,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:15.534036"
+    },
+    {
+      "id": "sim_135",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 9.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 9.2,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 15.5,
+        "avg_delay_min": 12.6,
+        "ambulance_delay_min": 20.5,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.1,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:18.265273"
+    },
+    {
+      "id": "sim_136",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 7.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 7.6000000000000005,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 12.8,
+        "avg_delay_min": 12.5,
+        "ambulance_delay_min": 18.7,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.7,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:20.269097"
+    },
+    {
+      "id": "sim_137",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 6.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 6.800000000000001,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 11.4,
+        "avg_delay_min": 12.1,
+        "ambulance_delay_min": 17.6,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:22.828744"
+    },
+    {
+      "id": "sim_138",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 5.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 6.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 11.3,
+        "avg_delay_min": 11.9,
+        "ambulance_delay_min": 15.5,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:24.930320"
+    },
+    {
+      "id": "sim_139",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 4.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 5.2,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 9.5,
+        "avg_delay_min": 11.2,
+        "ambulance_delay_min": 14.4,
+        "pollution_delta": 7.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:27.098183"
+    },
+    {
+      "id": "sim_140",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 3.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 1,
+        "hospital_distance_km": 4.4,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 8.9,
+        "avg_delay_min": 6.3,
+        "ambulance_delay_min": 9.0,
+        "pollution_delta": 7.5,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:29.676311"
+    },
+    {
+      "id": "sim_141",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 4.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 5.2,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 9.5,
+        "avg_delay_min": 11.2,
+        "ambulance_delay_min": 14.4,
+        "pollution_delta": 7.8,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.7,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.0
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:32.816093"
+    },
+    {
+      "id": "sim_142",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 5.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 6.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 11.3,
+        "avg_delay_min": 11.9,
+        "ambulance_delay_min": 15.5,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.3,
+        "public_health_risk": 2.8,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:37.621260"
+    },
+    {
+      "id": "sim_143",
+      "payload": {
+        "name": null,
+        "scenario_type": "ambulance",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 0,
+        "crowd_count_lakhs": 0,
+        "duration_hours": 4,
+        "time_of_day": 14.0,
+        "day_of_week": 1,
+        "zone_lat": 12.3040307,
+        "zone_lng": 76.6814382,
+        "roads_affected": 7.0,
+        "bus_routes_disrupted": 0,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 1,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 7,
+        "alternate_routes_available": 0,
+        "hospital_distance_km": 7.6000000000000005,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 12.8,
+        "avg_delay_min": 12.5,
+        "ambulance_delay_min": 18.7,
+        "pollution_delta": 8.3,
+        "flood_risk_score": 0.4,
+        "public_health_risk": 2.7,
+        "ksrtc_disruption_score": 0.8,
+        "waste_impact_score": 6.4,
+        "crowd_safety_risk": 2.3
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:50:40.952950"
+    },
+    {
+      "id": "sim_144",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 0.5,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 18.0,
+        "avg_delay_min": 9.8,
+        "ambulance_delay_min": 5.2,
+        "pollution_delta": 5.5,
+        "flood_risk_score": 2.0,
+        "public_health_risk": 1.3,
+        "ksrtc_disruption_score": 2.0,
+        "waste_impact_score": 2.1,
+        "crowd_safety_risk": 0.9
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:53:17.225748"
+    },
+    {
+      "id": "sim_145",
+      "payload": {
+        "name": null,
+        "scenario_type": "festival",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 9.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 2.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 36.6,
+        "avg_delay_min": 24.6,
+        "ambulance_delay_min": 11.1,
+        "pollution_delta": 22.8,
+        "flood_risk_score": 1.9,
+        "public_health_risk": 1.3,
+        "ksrtc_disruption_score": 7.9,
+        "waste_impact_score": 1.7,
+        "crowd_safety_risk": 2.5
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:53:23.047427"
+    },
+    {
+      "id": "sim_146",
+      "payload": {
+        "name": null,
+        "scenario_type": "bus_route",
+        "selected_road_ids": [],
+        "total_length_km": 2.0,
+        "rainfall_mm": 80.0,
+        "crowd_count_lakhs": 3.0,
+        "duration_hours": 24.0,
+        "time_of_day": 9,
+        "day_of_week": 1,
+        "zone_lat": 12.2958,
+        "zone_lng": 76.6394,
+        "roads_affected": 1.0,
+        "bus_routes_disrupted": 1,
+        "bus_route_type": 0,
+        "drain_condition": 0.8,
+        "is_monsoon": 0,
+        "is_dasara": 0,
+        "tourism_load": 0.2,
+        "festival_route_km": 0,
+        "garbage_zones_missed": 0,
+        "days_collection_missed": 0,
+        "alternate_routes_available": 2,
+        "hospital_distance_km": 2.0,
+        "base_congestion": 0.1
+      },
+      "results": {
+        "congestion_pct": 21.1,
+        "avg_delay_min": 13.4,
+        "ambulance_delay_min": 5.3,
+        "pollution_delta": 9.7,
+        "flood_risk_score": 2.0,
+        "public_health_risk": 1.3,
+        "ksrtc_disruption_score": 3.8,
+        "waste_impact_score": 2.1,
+        "crowd_safety_risk": 1.2
+      },
+      "alternative_routes": [
+        {
+          "name": "Route A: Sayyaji Rao Rd",
+          "via": "Hardinge Circle \u2192 Sayyaji Rao Rd",
+          "delay_reduction_pct": 42
+        },
+        {
+          "name": "Route B: MG Road",
+          "via": "MG Rd \u2192 Dhanvantri Rd",
+          "delay_reduction_pct": 25
+        },
+        {
+          "name": "Route C: Kalidasa Rd",
+          "via": "JLB Rd \u2192 Bannimantap",
+          "delay_reduction_pct": 18
+        }
+      ],
+      "timestamp": "2026-04-05T11:53:28.839659"
     }
   ],
   "forms": [],
@@ -2259,6 +8108,104 @@
   ],
   "schema_version": "v4",
   "submissions": [
+    {
+      "id": "REQ-112944-979",
+      "type": "complaint",
+      "applicant": "CityMind AI Assistant",
+      "organization": "None",
+      "date": "2026-04-05",
+      "location": "Mandi",
+      "status": "pending",
+      "route": "Mandi (Route: Multiple locations...)",
+      "participants": "N/A",
+      "submittedAt": "Just Now",
+      "payload": {
+        "type": "complaint",
+        "applicant": "CityMind AI Assistant",
+        "date": "2026-04-05",
+        "location": "Mandi",
+        "status": "pending",
+        "details": {
+          "issue": "Pothole",
+          "description": "Too difficult to walk around",
+          "ticket_id": "TKT-77842"
+        }
+      }
+    },
+    {
+      "id": "REQ-112456-765",
+      "type": "complaint",
+      "applicant": "CityMind AI Assistant",
+      "organization": "None",
+      "date": "2026-04-05",
+      "location": "Mandi Mohalla",
+      "status": "approved",
+      "route": "Mandi Mohalla (Route: Multiple locations...)",
+      "participants": "N/A",
+      "submittedAt": "Just Now",
+      "payload": {
+        "type": "complaint",
+        "applicant": "CityMind AI Assistant",
+        "date": "2026-04-05",
+        "location": "Mandi Mohalla",
+        "status": "pending",
+        "details": {
+          "issue": "Pothole",
+          "description": "Too many potholes near KR Hospital causing difficulty to the ambulances",
+          "ticket_id": "TKT-68862"
+        }
+      }
+    },
+    {
+      "id": "REQ-111944-462",
+      "type": "complaint",
+      "applicant": "CityMind AI Assistant",
+      "organization": "None",
+      "date": "2026-04-05",
+      "status": "rejected",
+      "route": "Mandi Mohalla (Route: Multiple locations...)",
+      "participants": "N/A",
+      "submittedAt": "Just Now",
+      "payload": {
+        "type": "complaint",
+        "applicant": "CityMind AI Assistant",
+        "date": "2026-04-05",
+        "location": "Mandi Mohalla",
+        "status": "pending",
+        "details": {
+          "issue": "Pothole",
+          "description": "Too many potholes near KR Hospital causing difficulty to the ambulances",
+          "ticket_id": "TKT-80804"
+        }
+      }
+    },
+    {
+      "id": "REQ-111413-543",
+      "type": "waste_report",
+      "applicant": "Jishnu Abbhay",
+      "organization": "None",
+      "date": "2026-04-05",
+      "status": "pending",
+      "route": "Mysuru (Route: Multiple locations...)",
+      "participants": "N/A",
+      "submittedAt": "Just Now",
+      "payload": {
+        "type": "waste_report",
+        "applicant": "Jishnu Abbhay",
+        "date": "2026-04-05",
+        "location": "Mysuru",
+        "status": "pending",
+        "details": {
+          "applicant_name": "Jishnu Abbhay",
+          "applicant_mobile": "+917618704845",
+          "applicant_address": "Akbar Road\n1726",
+          "issue_type": "Overflowing Bin",
+          "ward": "16",
+          "location_desc": "Mandi Mohalla, near Hotel Hanumanthu",
+          "declared": true
+        }
+      }
+    },
     {
       "id": "REQ-110715-322",
       "type": "procession",

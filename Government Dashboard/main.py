@@ -174,6 +174,7 @@ class SimulationInput(BaseModel):
     days_collection_missed: Optional[int] = 0
     alternate_routes_available: Optional[int] = 2
     hospital_distance_km: Optional[float] = 2.0
+    base_congestion: Optional[float] = 0.1
 
 @app.get("/api/v1/hospitals")
 async def get_hospitals():
