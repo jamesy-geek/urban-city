@@ -21,7 +21,6 @@ const sidebarLinks = [
   { name: "Dashboard", href: "/government", icon: LayoutDashboard },
   { name: "Simulation", href: "/government/simulation", icon: Activity },
   { name: "Emergency Ops", href: "/government/emergency", icon: Siren },
-  { name: "Policy Lab", href: "/government/policy", icon: MapIcon },
   { name: "Analytics", href: "/government/analytics", icon: BarChart3 },
   { name: "Citizen Forms", href: "/government/forms", icon: FileText },
   { name: "Alerts", href: "/government/alerts", icon: AlertTriangle },

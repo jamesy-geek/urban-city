@@ -41,6 +41,9 @@ export default function GovernmentFormsPage() {
           <h1 className={styles.pageTitle}>Citizen Forms Management</h1>
           <p className={styles.pageSubtitle}>Form Builder — Permission Letter Schema</p>
         </div>
+        <a href="/government/forms/submissions" className={styles.saveBtn} style={{ textDecoration: 'none', backgroundColor: 'var(--accent-primary)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <FileText size={14} /> View Submissions
+        </a>
       </div>
 
       {/* Builder Layout */}

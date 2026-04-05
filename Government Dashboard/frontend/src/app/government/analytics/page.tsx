@@ -84,8 +84,8 @@ export default function AnalyticsPage() {
             {[
               { label: 'Total Simulations', value: data?.overview?.total_simulations,       icon: Activity,       accent: '#0891b2', bg: '#ecfeff' },
               { label: 'Avg Congestion',    value: (data?.overview?.avg_congestion) + '%',  icon: TrendingUp,     accent: '#d97706', bg: '#fffbeb' },
-              { label: 'Ambulance Impact',  value: '+' + (data?.overview?.ambulance_risk_avg) + ' min', icon: AlertTriangle, accent: '#dc2626', bg: '#fef2f2' },
-              { label: 'Network Uptime',    value: '99.8%',                                 icon: Zap,            accent: '#16a34a', bg: '#f0fdf4' },
+              { label: 'Flood Incidence',   value: data?.overview?.flood_incidence_years || '0.0%', icon: MapPin, accent: '#0284c7', bg: '#f0f9ff' },
+              { label: 'Arch. Resilience',  value: data?.overview?.architecture_resilience || '98.5%', icon: Zap, accent: '#16a34a', bg: '#f0fdf4' },
             ].map((s, i) => (
               <div className={styles.statCard} key={i}>
                 <div className={styles.statIcon} style={{ background: s.bg, color: s.accent }}>

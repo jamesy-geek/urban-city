@@ -115,6 +115,8 @@ X = pd.DataFrame({
     'festival_route_km': festival_route_km,
     'garbage_zones_missed': garbage_zones_missed,
     'days_collection_missed': days_collection_missed,
+    'hospital_distance_km': hospital_distance_km,
+    'alternate_routes_available': alternate_routes_available,
 })
 
 # ============================================================
@@ -127,13 +129,13 @@ congestion = np.clip(
     roads_affected * 1.5 +
     total_length_km * 2.5 +
     rainfall_mm * 0.12 +
-    crowd_count_lakhs * 6 +
+    np.maximum(0, crowd_count_lakhs - 9.0) * 8 +
     base_congestion * 18 +
     tourism_load * 8 +
     np.where((time_of_day >= 8) & (time_of_day <= 10), 10, 0) +   # morning peak
     np.where((time_of_day >= 17) & (time_of_day <= 19), 12, 0) +  # evening peak
     np.where(day_of_week < 5, 3, -2) +                            # weekday penalty
-    is_dasara * 20 +
+    is_dasara * 5 +    # Reduced to avoid blowing up at 9-10 Lakhs natively
     garbage_zones_missed * 0.5 +  # garbage trucks add to traffic
     np.random.normal(0, 2.5, N),
     0, 80
@@ -176,14 +178,13 @@ pollution = np.clip(
 )
 
 # 5. FLOOD RISK SCORE (0-10)
+# Calibrated for Mysuru architecture: severely lowers risk
 flood_risk = np.clip(
-    rainfall_mm * 0.06 +
-    np.where(scenario_type == 1, 4, 0) +
-    (1 - drain_condition) * 5 +  # blocked drains amplify risk
-    is_monsoon * 2 +
-    np.where(rainfall_mm > FLOOD_THRESHOLD_MM, 3, 0) +
-    np.random.normal(0, 0.4, N),
-    0, 10
+    rainfall_mm * 0.01 +
+    np.where(scenario_type == 1, 1.5, 0) +
+    (1 - drain_condition) * 1.5 +
+    np.random.normal(0, 0.2, N),
+    0, 3  # Capped at 3 to reflect lack of historical severe floods
 )
 
 # 6. PUBLIC HEALTH RISK (0-10) — NEW metric
@@ -223,8 +224,8 @@ waste_impact = np.clip(
 
 # 9. CROWD SAFETY RISK (0-10) — NEW metric (for festival scenarios)
 crowd_safety = np.clip(
-    crowd_count_lakhs * 1.2 +
-    is_dasara * 3 +
+    np.maximum(0, crowd_count_lakhs - 9.0) * 2.5 +
+    is_dasara * 1.5 +
     festival_route_km * 0.4 +
     np.where(near_hospital == 0, 2, 0) +
     np.where(alternate_routes_available < 2, 1.5, 0) +

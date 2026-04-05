@@ -115,6 +115,8 @@ def predict(scenario: dict, zone_lat: float = 12.2958, zone_lng: float = 76.6394
         scenario.get('festival_route_km', 0),
         scenario.get('garbage_zones_missed', 0),
         scenario.get('days_collection_missed', 0),
+        scenario.get('hospital_distance_km', 2.0),
+        scenario.get('alternate_routes_available', 2),
     ]])
     
     result = _model.predict(X)[0]

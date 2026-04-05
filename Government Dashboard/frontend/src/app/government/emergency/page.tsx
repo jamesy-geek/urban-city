@@ -92,10 +92,9 @@ export default function EmergencyOpsPage() {
         }
     }
 
-    // Calculate distance and alternative routes heuristics
-    const distance_km = 0.5 + (Math.random() * 5); // Realistic distance variation
     // The more roads we block, the fewer alternate routes available
     const activeRoadCount = blockedRoadIds.length > 0 ? blockedRoadIds.length : params.blocked_roads;
+    const distance_km = 2.0 + (activeRoadCount * 0.8); // Deterministic delay modifier
     const alternate_routes = Math.max(0, 4 - activeRoadCount);
 
     // Simulate V2 ML Predictor for Emergency Scenarios
@@ -137,18 +136,32 @@ export default function EmergencyOpsPage() {
 
   const handleBlockedRoadsChange = async (roadIds: string[]) => {
      setBlockedRoadIds(roadIds);
-     // If user hasn't explicitly hit 'Simulate', we still do a quick impact
      if (roadIds.length > 0) {
+       let lat = 12.3134; let lng = 76.6499;
+       if (selectedModule === 'ambulance') {
+           const hospital = hospitals.find(h => h.id === params.hospital_id);
+           if (hospital) { lat = hospital.lat; lng = hospital.lng; }
+       }
+       const activeRoadCount = roadIds.length;
+       const distance_km = 2.0 + (activeRoadCount * 0.8);
+       const alternate_routes = Math.max(0, 4 - activeRoadCount);
+
        try {
           const res = await fetch('http://localhost:8001/api/v1/simulation/predict', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              scenario_type: 'road_closure',
+              scenario_type: selectedModule,
+              garbage_zones_missed: selectedModule === 'garbage' ? 1 : 0,
+              days_collection_missed: params.days_missed,
+              is_monsoon: params.is_monsoon,
+              roads_affected: activeRoadCount,
               selected_road_ids: roadIds,
-              roads_affected: roadIds.length,
-              zone_lat: 12.2958,
-              zone_lng: 76.6394
+              alternate_routes_available: alternate_routes,
+              hospital_distance_km: distance_km,
+              time_of_day: 14,
+              zone_lat: lat,
+              zone_lng: lng
             })
           });
           const data = await res.json();
@@ -320,10 +333,13 @@ export default function EmergencyOpsPage() {
               </div>
            ) : (
               <div className="grid grid-cols-4 gap-4 mb-6">
-                <div className="p-4 bg-red-600 rounded-xl border border-red-700 text-white shadow-xl">
+                <div className={`p-4 rounded-xl border text-white shadow-xl ${results?.results.ambulance_delay_min > 15 ? 'bg-red-600 border-red-700' : results?.results.ambulance_delay_min > 10 ? 'bg-orange-500 border-orange-600' : 'bg-emerald-500 border-emerald-600'}`}>
                   <Siren className="w-4 h-4 text-white mb-2" />
-                  <p className="text-[9px] font-bold text-red-100 uppercase">Ambulance Delay</p>
-                  <p className="text-2xl font-black">{results?.results.ambulance_delay_min} MINUTES</p>
+                  <p className="text-[9px] font-bold text-white/80 uppercase">Ambulance Delay & Risk</p>
+                  <p className="text-2xl font-black">{results?.results.ambulance_delay_min.toFixed(1)} MINS</p>
+                  <div className="mt-2 text-[10px] font-bold uppercase py-1 px-2 rounded-full bg-black/20 inline-block">
+                    {results?.results.ambulance_delay_min > 15 ? 'CRITICAL RISK' : results?.results.ambulance_delay_min > 10 ? 'HIGH RISK' : 'NORMAL / ACCEPTABLE'}
+                  </div>
                 </div>
                 <div className="p-4 bg-orange-50 rounded-xl border border-orange-100">
                   <Activity className="w-4 h-4 text-orange-600 mb-2" />

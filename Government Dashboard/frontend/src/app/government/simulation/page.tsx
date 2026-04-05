@@ -151,9 +151,10 @@ export default function SimulationPage() {
       return { label: 'LIGHT', color: '#10b981' };
     }
     if (key === 'avg_delay_min' || key === 'ambulance_delay_min') {
-        if (val > 20) return { label: 'CRITICAL', color: '#ef4444' };
-        if (val > 8) return { label: 'WARNING', color: '#f59e0b' };
-        return { label: 'NORMAL', color: '#10b981' };
+        if (val > 30) return { label: 'CRITICAL', color: '#ef4444' };
+        if (val > 20) return { label: 'HIGH', color: '#f97316' };
+        if (val >= 10) return { label: 'MEDIUM', color: '#eab308' };
+        return { label: 'LOW', color: '#10b981' };
     }
     if (key === 'pollution_delta') {
         if (val > 25) return { label: 'CRITICAL', color: '#ef4444' };
@@ -222,7 +223,7 @@ export default function SimulationPage() {
                         <span className="text-amber-600">CROWD (LAKHS)</span>
                         <span className="text-amber-600">{(params.crowd / 100000).toFixed(1)}L</span>
                     </div>
-                    <input type="range" min="50000" max="800000" step="50000" value={params.crowd} onChange={(e) => setParams({...params, crowd: parseInt(e.target.value)})} className="w-full accent-amber-600" />
+                    <input type="range" min="50000" max="2000000" step="50000" value={params.crowd} onChange={(e) => setParams({...params, crowd: parseInt(e.target.value)})} className="w-full accent-amber-600" />
                 </div>
                 <div className="flex items-center gap-2">
                     <input type="checkbox" checked={params.is_dasara === 1} onChange={(e) => setParams({...params, is_dasara: e.target.checked ? 1 : 0})} />
