@@ -51,7 +51,14 @@ export default function CityMindChatbot() {
     const [messages, setMessages] = useState<Message[]>([]);
     const [inputValue, setInputValue] = useState('');
     const [currentLang, setCurrentLang] = useState<Language>('en');
-    const [chatStage, setChatStage] = useState<'neutral' | 'collect_issue' | 'collect_loc' | 'collect_desc'>('neutral');
+    const [chatStage, _setChatStage] = useState<'neutral' | 'collect_issue' | 'collect_loc' | 'collect_desc'>('neutral');
+    const chatStageRef = useRef(chatStage);
+
+    const setChatStage = (stage: any) => {
+        chatStageRef.current = stage;
+        _setChatStage(stage);
+    };
+
     const [currentDraft, setCurrentDraft] = useState<any>({});
     const [tickets, setTickets] = useState<any[]>([]);
     const [isTyping, setIsTyping] = useState(false);
@@ -89,23 +96,25 @@ export default function CityMindChatbot() {
     const processInput = (text: string) => {
         const lower = text.toLowerCase();
 
-        if (chatStage === 'collect_issue') {
+        const stage = chatStageRef.current;
+
+        if (stage === 'collect_issue') {
             setCurrentDraft((prev: any) => ({ ...prev, issue: text }));
             setChatStage('collect_loc');
             addBotMessage(translations.collectLoc);
             return;
-        } else if (chatStage === 'collect_loc') {
+        } else if (stage === 'collect_loc') {
             setCurrentDraft((prev: any) => ({ ...prev, loc: text }));
             setChatStage('collect_desc');
             addBotMessage(translations.collectDesc);
             return;
-        } else if (chatStage === 'collect_desc') {
+        } else if (stage === 'collect_desc') {
             const finalDraft = { ...currentDraft, desc: text };
             createTicket(finalDraft);
             return;
         }
 
-        if (lower.includes('complaint') || lower.includes('issue') || lower.includes('ticket') && !lower.includes('history')) {
+        if (lower.includes('complaint') || lower.includes('issue') || lower.includes('ticket') || lower.includes('pothole') || lower.includes('garbage') || lower.includes('streetlight')) {
             startComplaintFlow();
         } else if (lower.includes('history') || lower.includes('my tickets')) {
             showHistory();
