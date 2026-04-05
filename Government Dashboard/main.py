@@ -161,6 +161,7 @@ class SimulationInput(BaseModel):
     day_of_week: Optional[float] = 1
     zone_lat: Optional[float] = 12.2958
     zone_lng: Optional[float] = 76.6394
+    roads_affected: Optional[float] = 3.0
     # Additional scenario-specific
     bus_routes_disrupted: Optional[int] = 0
     bus_route_type: Optional[int] = 0 # 0=city_centre, 1=cross_city, 2=suburban
@@ -272,8 +273,12 @@ async def run_prediction(payload: SimulationInput):
     # Payload already has V2 names. We map them into the scenario dict for predictor.py
     scenario = payload.dict()
     
-    # roads_affected is calculated from selected_road_ids
-    scenario['roads_affected'] = len(payload.selected_road_ids or []) or 3
+    # roads_affected is calculated from selected_road_ids if provided
+    if payload.selected_road_ids:
+        scenario['roads_affected'] = len(payload.selected_road_ids)
+    else:
+        # If no internal road IDs, use the slider value (e.g. for bus routes)
+        scenario['roads_affected'] = payload.roads_affected or 3
     
     result = predict(scenario, zone_lat=payload.zone_lat, zone_lng=payload.zone_lng)
     
