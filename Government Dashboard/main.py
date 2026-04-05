@@ -528,6 +528,7 @@ async def submit_form(data: dict = Body(...)):
         "applicant": applicant,
         "organization": data.get('organization') or details.get('organization') or "None",
         "date": date,
+        "location": location,
         "status": "pending",
         "route": location if "road" in str(location).lower() else f"{location} (Route: {route[:20]}...)",
         "participants": participants,
