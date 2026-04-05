@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Info, AlertCircle, CheckCircle, Clock } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -8,21 +8,39 @@ export default function SupportDashboard() {
   const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState<"All" | "Open" | "Resolved" | "Unresolved">("All");
 
-  const STATS = [
-    { label: t("Help"), icon: Info, color: "#f59e0b", count: 1 },        // amber/orange
-    { label: t("Resolved"), icon: CheckCircle, color: "#10b981", count: 1 }, // green
-    { label: t("Unresolved"), icon: Clock, color: "#ef4444", count: 1 },   // red
+  const STATS_TEMPLATES = [
+    { label: t("Help"), key: "pending", icon: Info, color: "#f59e0b" },
+    { label: t("Resolved"), key: "approved", icon: CheckCircle, color: "#10b981" },
+    { label: t("Unresolved"), key: "rejected", icon: Clock, color: "#ef4444" },
   ];
 
-  const MOCK_TICKETS = [
-    { id: "T1", subject: "Property Tax Payment error", date: "Jan 19, 2026", status: "Unresolved" },
-    { id: "T2", subject: "Trade License Renewal delay", date: "Jan 15, 2026", status: "Resolved" },
-    { id: "T3", subject: "Portal Login Issue", date: "Jan 20, 2026", status: "Open" },
-  ];
+  const [tickets, setTickets] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const filteredTickets = MOCK_TICKETS.filter(tkt => {
+  useEffect(() => {
+    fetch('http://localhost:8001/api/v1/forms/submissions')
+      .then(res => res.json())
+      .then(data => {
+        // Filter for complaints or AI assistant tickets
+        const filtered = data.filter((t: any) => t.type === 'complaint' || t.applicant === "CityMind AI Assistant" || t.type === 'waste_report');
+        setTickets(filtered);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  const statsCount = {
+    pending: tickets.filter(t => t.status === 'pending').length,
+    approved: tickets.filter(t => t.status === 'approved').length,
+    rejected: tickets.filter(t => t.status === 'rejected').length,
+  };
+
+  const filteredTickets = tickets.filter(tkt => {
     if (activeTab === "All") return true;
-    return tkt.status === activeTab;
+    if (activeTab === "Open") return tkt.status === "pending";
+    if (activeTab === "Resolved") return tkt.status === "approved";
+    if (activeTab === "Unresolved") return tkt.status === "rejected";
+    return true;
   });
 
   return (
@@ -30,13 +48,13 @@ export default function SupportDashboard() {
       
       {/* Top: 3 Stat Cards */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px" }}>
-        {STATS.map(stat => (
+        {STATS_TEMPLATES.map(stat => (
           <button
             key={stat.label} 
             onClick={() => {
                if (stat.label === t("Resolved")) setActiveTab("Resolved");
                else if (stat.label === t("Unresolved")) setActiveTab("Unresolved");
-               else setActiveTab("Open"); // Help
+               else setActiveTab("Open"); // Help/Pending
             }}
             style={{ 
               backgroundColor: "white", padding: "24px", borderRadius: "12px", 
@@ -55,7 +73,7 @@ export default function SupportDashboard() {
             </div>
             <div style={{ flex: 1 }}>
               <p style={{ margin: "0 0 4px 0", fontSize: "0.875rem", color: "var(--text-muted)", fontWeight: 500 }}>{stat.label}</p>
-              <h3 style={{ margin: 0, fontSize: "1.5rem", color: "var(--text-primary)", fontWeight: 600 }}>{stat.count}</h3>
+              <h3 style={{ margin: 0, fontSize: "1.5rem", color: "var(--text-primary)", fontWeight: 600 }}>{(statsCount as any)[stat.key]}</h3>
             </div>
           </button>
         ))}
@@ -111,21 +129,21 @@ export default function SupportDashboard() {
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             {filteredTickets.map(tkt => (
               <div key={tkt.id} style={{ 
-                display: "grid", gridTemplateColumns: "1fr 4fr 2fr 2fr", 
+                display: "grid", gridTemplateColumns: "1.5fr 4fr 2fr 2fr", 
                 padding: "12px 16px", backgroundColor: "white", 
                 borderBottom: "1px solid var(--border)", color: "var(--text-primary)",
                 fontSize: "0.875rem", alignItems: "center"
               }}>
-                <div style={{ fontWeight: 500 }}>{tkt.id}</div>
-                <div>{tkt.subject}</div>
+                <div style={{ fontWeight: 500, fontSize: '0.75rem', fontFamily: 'monospace' }}>{tkt.id}</div>
+                <div>{tkt.details?.issue || tkt.type.replace('_',' ').toUpperCase()}</div>
                 <div style={{ color: "var(--text-muted)" }}>{tkt.date}</div>
                 <div>
                   <span style={{ 
                     padding: "4px 8px", borderRadius: "12px", fontSize: "0.75rem", fontWeight: 600,
-                    backgroundColor: tkt.status === "Resolved" ? "#d1fae5" : tkt.status === "Open" ? "#dbeafe" : "#fee2e2",
-                    color: tkt.status === "Resolved" ? "#065f46" : tkt.status === "Open" ? "#1e40af" : "#991b1b"
+                    backgroundColor: tkt.status === "approved" || tkt.status === "Resolved" ? "#d1fae5" : tkt.status === "pending" || tkt.status === "Open" ? "#dbeafe" : "#fee2e2",
+                    color: tkt.status === "approved" || tkt.status === "Resolved" ? "#065f46" : tkt.status === "pending" || tkt.status === "Open" ? "#1e40af" : "#991b1b"
                   }}>
-                    {t(tkt.status)}
+                    {t(tkt.status === "pending" ? "Open" : tkt.status === "approved" ? "Resolved" : tkt.status === "rejected" ? "Unresolved" : tkt.status)}
                   </span>
                 </div>
               </div>
